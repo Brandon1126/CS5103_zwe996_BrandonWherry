@@ -14,7 +14,7 @@ b) If I do not enter two file names, for two numbers, I must get an error tellin
 c) I should be able to enter file names with a relative or absolute path.
 d) The first file I enter will be considered 'A', and the second file should be considered 'B'
 e) I should be able to verify the numbers entered by seeing "A = 1.75e107" or "B = -2.56e-200" to confirm that the numbers were correctly obtained.
-f) White space between numbers should be ignored, if there are any non-numberic characters (aside from "." and "-") I should get an error message.
+f) White space between numbers should be ignored, if there are any non-numberic characters (aside from "." and "-") I should get an error message. 
 
 
 
