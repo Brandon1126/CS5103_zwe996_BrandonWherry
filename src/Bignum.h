@@ -6,11 +6,13 @@ using namespace std;
 
 class Bignum {
 private:
-	vector<unsigned long long int> number;
+	string number;
+	int decimal_place;
 
 
 public:
 	Bignum(string&);
 	void print_num();
+	void print_scientific_notation();
 
 };

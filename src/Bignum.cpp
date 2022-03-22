@@ -15,29 +15,55 @@ using namespace std;
 // This value will most likely be 19, allowing for a little wiggle room to detect
 // when we should carry
 
-int DIGITS_PER_ULL = (int)to_string(ULLONG_MAX).size() - 1;
-
-
+const int DIGITS_PER_ULL = (int)to_string(ULLONG_MAX).size() - 1;
 
 
 
 Bignum::Bignum(string& file_string) {
-	int digits_left = file_string.size();
-	int index_counter = 0;
-	string slice;
-	while (digits_left > DIGITS_PER_ULL) {
-		slice = file_string.substr(index_counter, DIGITS_PER_ULL);
-		number.push_back(stoull(slice));
-		index_counter += DIGITS_PER_ULL;
-		digits_left -= DIGITS_PER_ULL;
-	}
-	if (digits_left > 0) {
-		slice = file_string.substr(index_counter, digits_left);
-		number.push_back(stoull(slice));
+	decimal_place = file_string.find('.');
+	if (decimal_place == -1) {
+		number = file_string;
+	} else {
+		number = file_string.substr(0, decimal_place) + file_string.substr(decimal_place + 1);
 	}
 }
 
+
+
+
+
+
 void Bignum::print_num() {
-	for (auto num : number) cout << num;
-	cout << endl;
+	if (decimal_place == -1) {
+		cout << number << endl;
+	} else {
+		cout << number.substr(0, decimal_place) << '.' << number.substr(decimal_place + 1) << endl;
+	}
+}
+
+void Bignum::print_scientific_notation() {
+	int first_nonzero_digit_location = 0;
+
+	for (auto digit : number) {
+		if (digit != '0') break;
+		first_nonzero_digit_location++;
+	}
+
+	// cout << first_nonzero_digit_location << endl;
+
+	string first_few_signifigant_digits{number[first_nonzero_digit_location]};
+
+	first_few_signifigant_digits += '.';
+	int digits_left = number.substr(first_nonzero_digit_location).size();
+	
+	if (digits_left >= 2)
+		first_few_signifigant_digits += number.substr(first_nonzero_digit_location + 1, 4);
+	else 
+		first_few_signifigant_digits += '0';
+
+	int exponent = (decimal_place - 1) - (first_nonzero_digit_location);
+
+	cout << first_few_signifigant_digits << 'e' << exponent << endl;
+
+
 }

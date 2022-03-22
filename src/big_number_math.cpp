@@ -7,10 +7,11 @@
 #include <climits>
 #include <chrono>
 
+
 using namespace std;
 
 
-int main(int argc, char const *argv[])
+int driver(int argc, char const *argv[])
 {
 	ifstream number_a_file, number_b_file;
 	string number_a_string, number_b_string;
@@ -33,22 +34,20 @@ int main(int argc, char const *argv[])
 	Bignum number_a = Bignum(number_a_string);
 	Bignum number_b = Bignum(number_b_string);
 
-	
-	
 
-	number_a.print_num();
-	number_b.print_num();
+	// number_a.print_num();
+	// number_b.print_num();
 
-	
-	// while (getline(number_A, line)) {
-	// 	cout << line << endl;
-	// }
-
-	// cout << ULLONG_MAX / 10 << endl;
-
-
-	
-	
+	number_a.print_scientific_notation();
+	number_b.print_scientific_notation();
 
 	return 0;
+}
+
+
+int main(int argc, char const *argv[]) {
+	driver(argc, argv);
+	
+	
+
 }
