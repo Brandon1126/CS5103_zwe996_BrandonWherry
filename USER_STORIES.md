@@ -5,8 +5,33 @@
 
 # Ongoing:
 
+
 Story:
-I would like to load in two numbers by two file name arguments when running my program.
+I should be able to specify add when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
+
+Test cases:
+a) If I entered two numbers that have the same sign, addition should be performed, 
+and the sign should carry to the result.
+b) If I entered two numbers that have a different sign, subtraction should be performed instead, and the sign of the result will be equal to the number with the higher absolute value.
+
+
+
+
+Story:
+I should be able to specify subtraction (sub) when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
+
+Test cases:
+a) If I entered two numbers that have the same sign, subtraction should be performed, but the larger number should appear first. For example, if I specify A - B, but |B| > |A|, then -(B - A) should be performed instead.
+b) If I entered two numbers that have a different sign, addition should be performed instead, and the sign of the result will be equal to the number with the higher absolute value. For example, A + -B will be computed as A - B (where A and B are both positive).
+
+
+
+
+# Completed:
+
+
+Story:
+I would like to load in two numbers by two file name arguments when running my program, and these numbers should be printed back to me in scientific notation, so I get a general sense of the number's I've loaded in.
 
 Test cases:
 a) If the file name is not found, I must get an error telling me exactly that.
@@ -19,49 +44,23 @@ f) White space between numbers should be ignored, if there are any non-numberic 
 
 
 
-
-
 Story:
-I should be able to specify either -add, or -sub when running the program, two perform addition or subtraction.
-
-Test cases:
-a) If I do not specify an operation, I should be asked during runtime.
-b) The operations should be performed are either A + B, or A - B.
-c) A and B are both allowed to be negative, by specifying a negative sign in the file.
-
-
-
-
-
-
-
-Story:
-I should recieve the output of a big number computation in 2 ways, one is by a print out of the answer to screen in scientific notation, (C = 1.87e1045, for example) the other is to an output file named "output.txt" which should hold the exact result.
+I should recieve the output of a big number computation in 2 ways, one is by a print out of the answer to screen in scientific notation, (A + B = 1.87e1045, for example) the other is to an output file named "C.txt" which should hold the exact result.
 
 Test cases:
 a) Both results, from console output and file output should match.
-b) If output.txt already exists, it should be overwritten.
+b) If C.txt already exists, it should be overwritten.
 
 
 
 
 
+Story:
+I should recieve the output of a big number computation in 2 ways, one is by a print out of the answer to screen in scientific notation, (A + B = 1.87e1045, for example) the other is to an output file named "C.txt" which should hold the exact result.
 
-
-
-
-
-
-
-# Completed:
-
-
-None so far
-
-
-
-
-
+Test cases:
+a) Both results, from console output and file output should match.
+b) If C.txt already exists, it should be overwritten.
 
 
 

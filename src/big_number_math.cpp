@@ -33,7 +33,7 @@ string file_reader(string file) {
 }
 
 
-int driver(int argc, char const *argv[]) {
+void driver(int argc, char const *argv[]) {
 	
 	string file_A, file_B, operation;
 	operation = argv[1];
@@ -48,26 +48,25 @@ int driver(int argc, char const *argv[]) {
 	Bignum number_a = Bignum(number_a_string);
 	Bignum number_b = Bignum(number_b_string);
 
-
+	cout << "A = ";
 	number_a.print_scientific_notation();
+	cout << "B = ";
 	number_b.print_scientific_notation();
 
+	number_a += number_b;
 
-	number_a.print_num();
-	number_b.print_num();
+	cout << "A + B = ";
+	number_a.print_scientific_notation();
 
-	number_a.decimal_align(number_b);
+	ofstream output("C.txt");
+	output << number_a.print_num() << endl;
+	output.close();
 
-	number_a.print_num();
-	number_b.print_num();
-
-	return 0;
+	cout << "Full answer stored in C.txt" << endl;
 }
 
 
 int main(int argc, char const *argv[]) {
 	driver(argc, argv);
-	
-	
-
+	return 0;
 }
