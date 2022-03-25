@@ -1,13 +1,16 @@
 /* 
 
-Description:
-Bignum class is to be able to store numbers with millions of digits, 
+The Bignum class is able to store numbers with millions of digits, 
 and is able to add them while keeping all precision.
 The upper limit for the size of a Bignum is ~2 billion digits.
-In a future update,
-I will modify it so that it can exceed even this contraint.
+In a future update, this may be increased.
 
-Author: Brandon W
+Author: 
+Brandon W
+
+Last Edit Date:
+3/24/22
+
 */
 
 #include "Bignum.h"
@@ -24,7 +27,7 @@ Because the size of a long long int is machine dependent
 The following global constant must be determined to figure out how many
 digits should be included in each long long int.
 */
-const int Bignum::DIGITS_PER_LL = (int)to_string(LLONG_MAX).size() - 1;
+const int Bignum::DIGITS_PER_LL = (int)to_string(LLONG_MAX).size() - 2;
 
 
 // How many sig figs to print out in scientific notation
@@ -127,19 +130,20 @@ void Bignum::add_zeros_right(int zero_count) {
 
 
 // This function is to help deal with carry values
-void Bignum::add_one_carry_over(int pos) {
-	if (pos < 0) {
-		add_zeros_left(1);
-		pos = 0;
-	}
-
+void Bignum::add_one_carry_over(int pos, Bignum& other) {
 	char value_to_be_increased = number[pos];
-	if (value_to_be_increased == '9') {
+	if (value_to_be_increased == '9' and pos == 0) {
 		number[pos] = '0';
 		add_zeros_left(1);
-		pos = 0;
-	} 
-	number[pos] += 1;
+		other.add_zeros_left(1);
+		add_one_carry_over(pos, other);
+	} else if (value_to_be_increased == '9' and pos != 0) {
+		number[pos] = '0';
+		add_one_carry_over(pos - 1, other);
+	} else {
+		number[pos] += 1;
+	}
+
 }
 
 
@@ -155,8 +159,6 @@ A = 134.1500
 B = 003.4567
 */
 void Bignum::decimal_align(Bignum& other) {
-	cout << decimal_place << endl;
-	cout << other.decimal_place << endl;
 	int decimal_place_diff;
 	if (decimal_place > other.decimal_place) {
 		decimal_place_diff = decimal_place - other.decimal_place;
@@ -198,34 +200,52 @@ long long ints.
 */
 void Bignum::combine(Bignum& other) {
 	decimal_align(other);
-	string temp_str_A, temp_str_B, temp_sum;
-	long long int temp_num_A, temp_num_B;
-	int beginning_pos;
-
-	for (int i = number.size() - 1; i > 0; i -= DIGITS_PER_LL) {
-		beginning_pos = i < DIGITS_PER_LL ? 0 : i - DIGITS_PER_LL;
-		temp_str_A = number.substr(beginning_pos,DIGITS_PER_LL);
-		temp_str_B = other.number.substr(beginning_pos,DIGITS_PER_LL);
-		temp_num_A = stoll(temp_str_A);
-		temp_num_B = stoll(temp_str_B);
-		temp_num_A += temp_num_B;
-		temp_sum = to_string(temp_num_A);
-		if (temp_sum.size() > DIGITS_PER_LL) {
-			add_one_carry_over(beginning_pos - 1);
-			temp_sum = temp_sum.substr(1);
-			number.replace(beginning_pos, DIGITS_PER_LL, temp_sum);
-		} else if (temp_sum.size() < DIGITS_PER_LL and beginning_pos != 0) {
-			int zero_count = DIGITS_PER_LL - temp_sum.size();
-			string add_left(zero_count, '0');
-			temp_sum.insert(0, add_left);
-			number.replace(beginning_pos, DIGITS_PER_LL, temp_sum);
-		} else {
-			decimal_place += (temp_sum.size() - temp_str_A.size());
-			number.replace(beginning_pos, DIGITS_PER_LL, temp_sum);
+	int end_pos = (int)number.size() - 1;
+	int start_pos = end_pos - DIGITS_PER_LL;
+	int current_size = (int)number.size();
+	int size_change = 0;
+	while (true) {
+		if (start_pos < 0) {start_pos = 0;}
+		if (end_pos < 0) {break;}
+		substr_add_replace(start_pos, end_pos, other);
+		size_change = (int)number.size() - current_size;
+		if (size_change > 0) {
+			end_pos += size_change;
+			start_pos += size_change;
 		}
-
+		end_pos -= (DIGITS_PER_LL + 1);
+		start_pos -= (DIGITS_PER_LL + 1);
 	}
 }
+
+/*
+Helper Function, implemented to help reduce the maount of code in combiner
+it takes aa start pos and end pos
+*/
+void Bignum::substr_add_replace(int start_pos, int end_pos, Bignum& other) {
+	int pos_diff = end_pos - start_pos + 1;
+	string str_A = number.substr(start_pos, pos_diff);
+	string str_B = other.number.substr(start_pos, pos_diff);
+	long long int num_A = stoll(str_A);
+	long long int num_B = stoll(str_B);
+	num_A += num_B;
+	string sum = to_string(num_A);
+	int size_diff = pos_diff - sum.size(); 
+	if (size_diff < 0 and start_pos == 0) {
+		add_one_carry_over(start_pos, other);	
+		number.replace(start_pos + 1, pos_diff, sum.substr(1));
+	} else if(size_diff < 0 and start_pos != 0) {
+		add_one_carry_over(start_pos, other);
+		number.replace(start_pos + 1, pos_diff, sum.substr(1));
+	} else if (size_diff > 0) {
+		string addleft(size_diff, '0');
+		sum.insert(0, addleft);
+		number.replace(start_pos, pos_diff, sum);
+	} else {
+		number.replace(start_pos, pos_diff, sum);
+	}
+}
+
 
 
 

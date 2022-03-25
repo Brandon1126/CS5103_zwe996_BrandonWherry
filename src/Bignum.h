@@ -4,6 +4,7 @@
 using namespace std;
 
 class Bignum {
+
 public:
 	Bignum(string&);
 	string print_num() const;
@@ -22,8 +23,10 @@ private:
 
 	void add_zeros_left(int);
 	void add_zeros_right(int);
-	void add_one_carry_over(int);
+	void add_one_carry_over(int, Bignum&);
+
 	void decimal_align(Bignum&);
+	void substr_add_replace(int, int, Bignum&);
 
 	void combine(Bignum&);
 	void compress(Bignum&); // not implemented yet
