@@ -1,0 +1,15 @@
+I haven't imported this project to an IDE yet, but I will soon. I've just been using Sublime.
+
+I wrote in C++11, big number computation would be incredibly easy with Python,
+however I wanted to use this project to become more familiar with C++, as I usually
+only write in Java or Python
+
+Things that I will be adding more as I go:
+-comments
+-more general class member functions, destructor/setters/getters
+-fix subtraction as I had to scrap it
+-clean up member functions more
+-add chrono timers to see execution times (for fun)
+-expand Bignum class to handle ~10 billion digits (right now it's limited up to ~2 billion, in theory, though I havent tried that high yet, only few thousand)
+-may change to completely binary storage of big numbers, and only use bitwise operations to add or subtract
+
