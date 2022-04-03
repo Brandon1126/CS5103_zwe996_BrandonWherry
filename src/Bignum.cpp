@@ -66,10 +66,10 @@ Bignum::Bignum(string& file_string) {
 
 
 /*
-Printer function, either places a decimal at the end of the number, 
+Used for getting  
 or where it should be
 */
-string Bignum::print_num() const {
+string Bignum::getnum() const {
 	string return_string;
 	if (sign) return_string += '-';
 	if (decimal_place == number.size()) {
@@ -86,8 +86,9 @@ string Bignum::print_num() const {
 /*
 Scientific Notation Printer, this is to get a general sense of the size of input number
 */
-void Bignum::print_scientific_notation() const {
-	if (sign) cout << '-';
+void Bignum::getexpnum() const {
+	string return_string;
+	if (sign) return_string += '-';
 	int first_nonzero_digit_location = 0;
 	// Finds most signifigant digit
 	for (auto digit : number) {
@@ -95,19 +96,17 @@ void Bignum::print_scientific_notation() const {
 		first_nonzero_digit_location++;
 	}
 
-	string first_signifigant_digits{number[first_nonzero_digit_location]};
-	first_signifigant_digits += '.';
+	return_string += number[first_nonzero_digit_location] + '.';
 	int digits_left = number.substr(first_nonzero_digit_location).size();
-	
 	if (digits_left >= 2) {
-		first_signifigant_digits += number.substr(first_nonzero_digit_location + 1, SIG_FIGS);
+		return_string += number.substr(first_nonzero_digit_location + 1, SIG_FIGS);
 	}
 	else {
-		first_signifigant_digits += '0';
+		return_string += '0';
 	}
-
 	int exponent = (decimal_place - 1) - (first_nonzero_digit_location);
-	cout << first_signifigant_digits << 'e' << exponent << endl;
+	return_string += 'e' + tostring(exponent);
+	return return_string;
 }
 
 
@@ -181,7 +180,7 @@ void Bignum::decimal_align(Bignum& other) {
 
 /*
 */
-void Bignum::operator+=(Bignum& other) {
+void Bignum::operator+(Bignum& other) {
 	// if (sign != other.sign) {
 	// 	operator-=(other);
 	// 	return;

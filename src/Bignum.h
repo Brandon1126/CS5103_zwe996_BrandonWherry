@@ -7,11 +7,11 @@ class Bignum {
 
 public:
 	Bignum(string&);
-	string print_num() const;
-	void print_scientific_notation() const;
+	string getnum() const;
+	string getexpnum() const;
 
-	void operator+=(Bignum&); 
-	void operator-=(Bignum&); // not implemented yet
+	void operator+(Bignum&); 
+	void operator-(Bignum&); // not implemented yet
 
 private:
 	string number;
