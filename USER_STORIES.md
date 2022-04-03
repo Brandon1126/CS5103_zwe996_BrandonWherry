@@ -6,6 +6,17 @@
 # Ongoing:
 
 
+
+
+
+
+
+
+
+
+
+# Completed:
+
 Story:
 I should be able to specify add when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
 
@@ -16,18 +27,6 @@ b) If I entered two numbers that have a different sign, subtraction should be pe
 
 
 
-
-Story:
-I should be able to specify subtraction (sub) when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
-
-Test cases:
-a) If I entered two numbers that have the same sign, subtraction should be performed, but the larger number should appear first. For example, if I specify A - B, but |B| > |A|, then -(B - A) should be performed instead.
-b) If I entered two numbers that have a different sign, addition should be performed instead, and the sign of the result will be equal to the number with the higher absolute value. For example, A + -B will be computed as A - B (where A and B are both positive).
-
-
-
-
-# Completed:
 
 
 Story:
@@ -61,6 +60,17 @@ I should recieve the output of a big number computation in 2 ways, one is by a p
 Test cases:
 a) Both results, from console output and file output should match.
 b) If C.txt already exists, it should be overwritten.
+
+
+
+
+
+Story:
+I should be able to specify subtraction (sub) when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
+
+Test cases:
+a) If I entered two numbers that have the same sign, subtraction should be performed, but the larger number should appear first. For example, if I specify A - B, but |B| > |A|, then -(B - A) should be performed instead.
+b) If I entered two numbers that have a different sign, addition should be performed instead, and the sign of the result will be equal to the number with the higher absolute value. For example, A + -B will be computed as A - B (where A and B are both positive).
 
 
 

@@ -114,7 +114,7 @@ void Bignum::add_zeros_right(int zero_count) {
 
 
 /*
-decimal_align() is also a helper function, it's job is to align two numbers by decimal value.
+Helper function, it's job is to align two numbers by decimal value.
 If the numbers are already aligned, it does nothing.
 For example:
 If A = 134.15
@@ -148,23 +148,41 @@ void Bignum::decimal_align(Bignum& other) {
 
 
 
-/*
-adds 2 Bignums, returns a Bignum
-*/
+/**
+ * Adds two Bignums
+ * 
+ * 
+ * If sign(A) != sign(B), this method uses the following identity.
+ * A + B = A -(-B)
+ * 
+ * 
+ * Description:
+ * This method converts segments of the number string into long long int,
+ * and then adds them. If the result would be result in a carry, then a 1
+ * must be added to the next segment. In the event that there is not another
+ * segment to add to (we're at the MSB of the number), we insert a "1" to the
+ * beginning of the number.
+ * 
+ * 
+ * @param The other Bignum
+ * @return A Bignum result
+ * 
+ * 
+ */
 Bignum Bignum::operator+(Bignum& other) {
 	if (isNegative != other.isNegative) {
+		other.isNegative = !other.isNegative;
 		return *this - other;
 	}
+
 	decimal_align(other);
 	bool is_carry = false;
-
 	int end_pos = (int)number.size() - 1;
 	int start_pos = end_pos - DIGITS_PER_LL;
 	int pos_diff;
 	int decimal_pos = decimal_place;
 	string str_A, str_B, result;
 	long long int num_A, num_B;
-
 
 	while (true) {
 		if (start_pos < 0) {start_pos = 0;}
@@ -205,41 +223,57 @@ Bignum Bignum::operator+(Bignum& other) {
 	return C;
 }
 
-/*
-subtracts 2 Bignums, returns a Bignum
-*/
+
+
+/**
+ * Subtracts two Bignums.
+ *
+ * Description:
+ * If |A| < |B|, then the following identity is used to ensure
+ * that the first number dictates what the resulting sign will be
+ *
+ * A - B = -(B - A)
+ *
+ * If sign(A) != sign(B), then the following identity is used
+ * to perform addition instead
+ *
+ * A - B = A + (-B)
+ *
+ * This method converts segments of the number string  into long long int,
+ * and then subtracts them. If the result would be negative, then a borrow
+ * must be performed. We assume we can always borrow, because |A| > |B|.
+ * This is ensured by the above property.
+ * 
+ * 
+ * @param Bignum to be added
+ * @return a Bignum result
+ * 
+ */
 Bignum Bignum::operator-(Bignum& other) {
-	if (*this < other) {
-		isNegative = !isNegative;
-		other.isNegative = !other.isNegative;
-		cout << "hello" << endl;
-		Bignum A = *this;
-		Bignum B = other;
-
-		return (A - B);
+	bool is_A_lt_B = *this < other;
+	Bignum A = is_A_lt_B ? other : *this;
+	Bignum B = is_A_lt_B ? *this : other;
+	if (is_A_lt_B) {
+		A.isNegative = !A.isNegative;
+		B.isNegative = !B.isNegative;
 	}
-	if (isNegative != other.isNegative) {
-		return (*this + other);
+	if (A.isNegative != B.isNegative) {
+		B.isNegative = !B.isNegative;
+		return (A + B);
 	}
-
-
 	bool is_borrow = false;
-
 	int end_pos = (int)number.size() - 1;
 	int start_pos = end_pos - DIGITS_PER_LL;
 	int pos_diff;
-	int decimal_pos = decimal_place;
+	int decimal_pos = A.decimal_place;
 	string str_A, str_B, result;
 	long long int num_A, num_B;
-
-
 	while (true) {
 		if (start_pos < 0) {start_pos = 0;}
 		if (end_pos < 0) {break;}
-		
 		pos_diff = end_pos - start_pos + 1;
-		str_A = number.substr(start_pos, pos_diff);
-		str_B = other.number.substr(start_pos, pos_diff);
+		str_A = A.number.substr(start_pos, pos_diff);
+		str_B = B.number.substr(start_pos, pos_diff);
 		num_A = stoll(str_A);
 		num_B = stoll(str_B);
 		if (is_borrow) {
@@ -263,11 +297,20 @@ Bignum Bignum::operator-(Bignum& other) {
 	}
 	Bignum C(result);
 	C.decimal_place = decimal_pos;
-	C.isNegative = isNegative;
+	C.isNegative = A.isNegative;
 	C.compress();
 	return C;
 }
 
+
+/**
+ * 
+ * Comparison operators go from MSB -> LSB, and compare each value one by one.
+ * 
+ * @param other Bignum that is comapred against *This Bignum
+ * @return true or false
+ * 
+ */
 bool Bignum::operator<(Bignum& other) {
 	decimal_align(other);
 
@@ -277,8 +320,6 @@ bool Bignum::operator<(Bignum& other) {
 
 	return false;
 }
-
-
 bool Bignum::operator>(Bignum& other) {
 	decimal_align(other);
 
@@ -290,9 +331,17 @@ bool Bignum::operator>(Bignum& other) {
 }
 
 
-// compress() removes leading 0s and trailing 0s
-void Bignum::compress() {
 
+/**
+ * Description:
+ * Compress() removes leading 0s and trailing 0s.
+ * This method is used at the end of addition or subtraction in order 
+ * to remove excess 0s, should they arise.
+ * 
+ * @param None
+ * @return None
+ */
+void Bignum::compress() {
 	int pos = 0;
 	while(true) {
 		if (number[pos] == '0') {
@@ -301,7 +350,6 @@ void Bignum::compress() {
 		}
 		else {break;}
 	}
-
 	pos = number.size() - 1;
 	while(true) {
 		if (number[pos] == '0') {
@@ -310,34 +358,10 @@ void Bignum::compress() {
 		}
 		else {break;}
 	}
-
 	if (number.empty()) {
 		number = "00";
 		decimal_place = 1;
 	}
 }
 
-/*
-Subtraction member, not completed
-*/
-// void Bignum::operator-=(Bignum& other) {
-// 	if (sign == other.sign) {
-// 		operator+=(other);
-// 		return;
-// 	}
-// 	decimal_align(Bignum);
-// 	if (*this < other) {
-
-// 	}
-	
-// }
-
-
-
-/*
-
-*/
-// bool Bignum::operator>(Bignum& other) {}
-
-// bool Bignum::operator<(Bignum& other) {}
 

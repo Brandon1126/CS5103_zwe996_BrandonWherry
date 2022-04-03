@@ -1,9 +1,8 @@
 ## CS5103_zwe996_BrandonWherry
-Version: 0.21 beta
+Version: 1.0 beta
 Course Project - Big number Computation
 
 A.txt and B.txt are 2 source files for the numbers to be added or subtracted.
-Only addition works right now, subtraction will be fixed soon.
 
 
 
@@ -50,7 +49,9 @@ or
 
 g++ src/*.cpp -o BigNumberMath 
 
-To Run: (when pwd = main directory)
+
+
+# To add:
 
 ./BigNumberMath add A.txt B.txt
 
@@ -58,11 +59,28 @@ or
 
 ./add.sh
 
+or
+
+bash add.sh
+
+
+# To subtract:
+
+./BigNumberMath sub A.txt B.txt
+
+or 
+
+./sub.sh
+
+or
+
+bash sub.sh
+
 The latter assumes that A.txt and B.txt will be used
 
 # Format of the answer
-Both A and B will be printed back in scientific notation with 5 sig figures.
-This is to get a general sense of magnitude of the numbers.
+Both A and B will be printed back in scientific notation with 5 sig figs.
+This is to get a general sense of magnitude for each number.
 The answer is printed out in scientific notation, and
 the exact answer is redirected to "C.txt".
 

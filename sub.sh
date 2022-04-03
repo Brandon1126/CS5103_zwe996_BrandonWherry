@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Computing A - B"
 
-./BigNumberMath sub A.txt B.txt > C.txt
+./BigNumberMath sub A.txt B.txt
 
-echo "Answer in C.txt"

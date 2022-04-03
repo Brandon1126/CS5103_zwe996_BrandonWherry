@@ -37,6 +37,27 @@ string file_reader(string file) {
 	return number_string;
 }
 
+Bignum bignum_ALU(Bignum& A, Bignum& B, string& operation) {
+	if (operation == "add") {
+		return A + B;
+	}
+	if (operation == "sub") {
+		return A - B;
+	}
+
+	return A + B;
+}
+
+string operation_selector(string& operation) {
+	if (operation == "add") {
+		return "+";
+	}
+	if (operation == "sub") {
+		return "-";
+	}
+
+	return " (Error: unknown op, default is addition) ";
+}
 
 
 void driver(int argc, char const *argv[]) {
@@ -52,11 +73,20 @@ void driver(int argc, char const *argv[]) {
 	Bignum A(number_a_string);
 	Bignum B(number_b_string);
 
-	cout << "A = " << A.getnum() << endl;
-	cout << "B = " << B.getnum() << endl;
+	cout << "A = " << A.getexpnum() << endl;
+	cout << "B = " << B.getexpnum() << endl;
 
-	Bignum C = A - B;
-	cout << "A - B = " << C.getnum() << endl;
+	Bignum C = bignum_ALU(A, B, operation);
+	cout << "A " << operation_selector(operation) << " B = " << C.getexpnum() << endl;
+
+	cout << "Writing exact answer to C.txt" << endl;
+
+	ofstream result("C.txt");
+
+	result << C.getnum();
+
+	result.close();
+
 }
 
 
