@@ -17,7 +17,7 @@ public:
 
 	//operator overloads
 	Bignum operator+(Bignum&); 
-	Bignum operator-(Bignum&); // not implemented yet
+	Bignum operator-(Bignum&);
 
 private:
 	string number;
@@ -31,8 +31,7 @@ private:
 	void add_zeros_right(int);
 
 	void decimal_align(Bignum&);
-
-	void compress(Bignum&); // not implemented yet
+	void compress();
 
 	bool operator>(Bignum&); // not implemented yet
 	bool operator<(Bignum&); // not implemented yet

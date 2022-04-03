@@ -200,11 +200,37 @@ Bignum Bignum::operator+(Bignum& other) {
 	Bignum C(result);
 	C.decimal_place = decimal_pos;
 	C.isNegative = isNegative;
+	// C.compress();
 	return C;
 }
 
 
+// compress() removes leading 0s and trailing 0s
+void Bignum::compress() {
 
+	int pos = 0;
+	while(true) {
+		if (number[pos] == '0') {
+			number.erase(pos, 1);
+			decimal_place -= 1;
+		}
+		else {break;}
+	}
+
+	pos = number.size() - 1;
+	while(true) {
+		if (number[pos] == '0') {
+			number.erase(pos, 1);
+			pos--;
+		}
+		else {break;}
+	}
+
+	if (number.empty()) {
+		number = "00";
+		decimal_place = 1;
+	}
+}
 
 /*
 Subtraction member, not completed
