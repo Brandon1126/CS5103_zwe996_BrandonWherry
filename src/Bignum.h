@@ -19,6 +19,8 @@ public:
 	Bignum operator+(Bignum&); 
 	Bignum operator-(Bignum&);
 
+	bool operator<(Bignum&); // not implemented yet
+
 private:
 	string number;
 	int decimal_place;
@@ -34,6 +36,6 @@ private:
 	void compress();
 
 	bool operator>(Bignum&); // not implemented yet
-	bool operator<(Bignum&); // not implemented yet
+	
 
 };

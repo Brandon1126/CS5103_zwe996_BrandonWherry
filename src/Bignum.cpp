@@ -152,10 +152,9 @@ void Bignum::decimal_align(Bignum& other) {
 adds 2 Bignums, returns a Bignum
 */
 Bignum Bignum::operator+(Bignum& other) {
-	// if (sign != other.sign) {
-	// 	operator-=(other);
-	// 	return;
-	// }
+	if (isNegative != other.isNegative) {
+		return *this - other;
+	}
 	decimal_align(other);
 	bool is_carry = false;
 
@@ -170,6 +169,7 @@ Bignum Bignum::operator+(Bignum& other) {
 	while (true) {
 		if (start_pos < 0) {start_pos = 0;}
 		if (end_pos < 0) {break;}
+		
 		pos_diff = end_pos - start_pos + 1;
 		str_A = number.substr(start_pos, pos_diff);
 		str_B = other.number.substr(start_pos, pos_diff);
@@ -181,17 +181,18 @@ Bignum Bignum::operator+(Bignum& other) {
 			is_carry = false;
 		}
 		str_A = to_string(num_A);
-		int size_diff = str_A.size() - str_B.size(); 
+		int size_diff = str_A.size() - str_B.size();
 		if (size_diff < 0) {
-			string addleft(size_diff, '0');
+			string addleft(-1 * size_diff, '0');
 			str_A.insert(0, addleft);
 		} else if (size_diff > 0) {
 			is_carry = true;
 			str_A = str_A.substr(1);
 		}
+		
 		result.insert(0, str_A);
 		if (is_carry and start_pos == 0) { 
-			result.insert(0, "1");
+			result.insert(0, 1, '1');
 			decimal_pos += 1;
 		}
 		end_pos -= (DIGITS_PER_LL + 1);
@@ -200,8 +201,92 @@ Bignum Bignum::operator+(Bignum& other) {
 	Bignum C(result);
 	C.decimal_place = decimal_pos;
 	C.isNegative = isNegative;
-	// C.compress();
+	C.compress();
 	return C;
+}
+
+/*
+subtracts 2 Bignums, returns a Bignum
+*/
+Bignum Bignum::operator-(Bignum& other) {
+	if (*this < other) {
+		isNegative = !isNegative;
+		other.isNegative = !other.isNegative;
+		cout << "hello" << endl;
+		Bignum A = *this;
+		Bignum B = other;
+
+		return (A - B);
+	}
+	if (isNegative != other.isNegative) {
+		return (*this + other);
+	}
+
+
+	bool is_borrow = false;
+
+	int end_pos = (int)number.size() - 1;
+	int start_pos = end_pos - DIGITS_PER_LL;
+	int pos_diff;
+	int decimal_pos = decimal_place;
+	string str_A, str_B, result;
+	long long int num_A, num_B;
+
+
+	while (true) {
+		if (start_pos < 0) {start_pos = 0;}
+		if (end_pos < 0) {break;}
+		
+		pos_diff = end_pos - start_pos + 1;
+		str_A = number.substr(start_pos, pos_diff);
+		str_B = other.number.substr(start_pos, pos_diff);
+		num_A = stoll(str_A);
+		num_B = stoll(str_B);
+		if (is_borrow) {
+			num_B += 1;
+			is_borrow = false;
+		}
+		if (num_A < num_B) {
+			num_A = stoll(str_A.insert(0, 1, '1'));
+			is_borrow = true;
+		}
+		num_A -= num_B;
+		str_A = to_string(num_A);
+		int size_diff = str_A.size() - str_B.size();
+		if (size_diff < 0) {
+			string addleft(-1 * size_diff, '0');
+			str_A.insert(0, addleft);
+		} 
+		result.insert(0, str_A);
+		end_pos -= (DIGITS_PER_LL + 1);
+		start_pos -= (DIGITS_PER_LL + 1);
+	}
+	Bignum C(result);
+	C.decimal_place = decimal_pos;
+	C.isNegative = isNegative;
+	C.compress();
+	return C;
+}
+
+bool Bignum::operator<(Bignum& other) {
+	decimal_align(other);
+
+	for (int i = 0; i < number.size(); i++) {
+		if (number[i] < other.number[i]) return true;
+	}
+
+	return false;
+}
+
+
+bool Bignum::operator>(Bignum& other) {
+	decimal_align(other);
+
+	for (int i = 0; i < number.size(); i++) {
+		if (number[i] > other.number[i]) return true;
+	}
+
+	return false;
 }
 
 

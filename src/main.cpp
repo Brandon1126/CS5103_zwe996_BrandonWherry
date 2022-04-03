@@ -55,8 +55,8 @@ void driver(int argc, char const *argv[]) {
 	cout << "A = " << A.getnum() << endl;
 	cout << "B = " << B.getnum() << endl;
 
-	// Bignum C = A + B;
-	// cout << "A + B = " << C.getnum() << endl;
+	Bignum C = A - B;
+	cout << "A - B = " << C.getnum() << endl;
 }
 
 
