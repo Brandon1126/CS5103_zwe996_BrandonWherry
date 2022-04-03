@@ -1,7 +1,7 @@
 /* 
 
 The Bignum class is able to store numbers with millions of digits, 
-and is able to add them while keeping all precision.
+and is able to add them while keeping complete precision.
 The upper limit for the size of a Bignum is ~2 billion digits.
 In a future update, this may be increased.
 
@@ -9,7 +9,7 @@ Author:
 Brandon W
 
 Last Edit Date:
-3/24/22
+4/03/22
 
 */
 
@@ -34,23 +34,19 @@ const int Bignum::DIGITS_PER_LL = (int)to_string(LLONG_MAX).size() - 2;
 const int Bignum::SIG_FIGS = 4;
 
 
+//Constructors
+Bignum::Bignum() {
+	number = "00";
+	decimal_place = 1;
+}
 
 
-/* 
-This Constructor makes sure to extract the decimal point from the inputted string.
-The decimal place is stored seperately.
-If there is no decimal in the number, then the decimal place will be at the end
-to make it clear
-*/ 
 Bignum::Bignum(string& file_string) {
 	if (file_string[0] == '-') {
 		// sign = 1 means the number is negative
-		sign = 1;
+		isNegative = true;
 		file_string.erase(0, 1);
-	} else {
-		sign = 0;
-	}
-
+	} 
 	decimal_place = file_string.find('.');
 	if (decimal_place == -1) {
 		decimal_place = file_string.size();
@@ -62,56 +58,47 @@ Bignum::Bignum(string& file_string) {
 
 
 
-
-
-
-/*
-Used for getting  
-or where it should be
-*/
+// Returns the Bignum as a string
 string Bignum::getnum() const {
 	string return_string;
-	if (sign) return_string += '-';
+	if (isNegative) return_string.append(1, '-');
 	if (decimal_place == number.size()) {
-		return_string += number;
+		return_string.append(number);
 	} else {
-		return_string += number.substr(0, decimal_place) + '.' + number.substr(decimal_place);
+		return_string.append(number.substr(0, decimal_place) + '.' + number.substr(decimal_place));
 	}
 	return return_string;
 }
 
 
-
-
-/*
-Scientific Notation Printer, this is to get a general sense of the size of input number
-*/
-void Bignum::getexpnum() const {
+// Returns the Bignum as a string
+string Bignum::getexpnum() const {
 	string return_string;
-	if (sign) return_string += '-';
+	if (isNegative) return_string.append(1, '-');
 	int first_nonzero_digit_location = 0;
 	// Finds most signifigant digit
 	for (auto digit : number) {
 		if (digit != '0') break;
 		first_nonzero_digit_location++;
 	}
-
-	return_string += number[first_nonzero_digit_location] + '.';
+	return_string.append(1, number[first_nonzero_digit_location]);
+	return_string.append(1, '.');
+	
 	int digits_left = number.substr(first_nonzero_digit_location).size();
 	if (digits_left >= 2) {
-		return_string += number.substr(first_nonzero_digit_location + 1, SIG_FIGS);
+		return_string.append(number.substr(first_nonzero_digit_location + 1, SIG_FIGS));
 	}
 	else {
 		return_string += '0';
 	}
 	int exponent = (decimal_place - 1) - (first_nonzero_digit_location);
-	return_string += 'e' + tostring(exponent);
+	return_string.append(1, 'e');
+	return_string.append(to_string(exponent));
 	return return_string;
 }
 
 
-
-// Appends 0's to the left of the number, helper function
+// Appends 0's to the left of the number, helper method
 void Bignum::add_zeros_left(int zero_count) {
 	string add_left(zero_count, '0');
 	number.insert(0, add_left);
@@ -119,36 +106,16 @@ void Bignum::add_zeros_left(int zero_count) {
 }
 
 
-
-// Appends 0's to the right of the number, helper function
+// Appends 0's to the right of the number, helper method
 void Bignum::add_zeros_right(int zero_count) {
 	string add_right(zero_count, '0');
 	number.insert(number.size(), add_right);
 }
 
 
-
-// This function is to help deal with carry values
-void Bignum::add_one_carry_over(int pos, Bignum& other) {
-	char value_to_be_increased = number[pos];
-	if (value_to_be_increased == '9' and pos == 0) {
-		number[pos] = '0';
-		add_zeros_left(1);
-		other.add_zeros_left(1);
-		add_one_carry_over(pos, other);
-	} else if (value_to_be_increased == '9' and pos != 0) {
-		number[pos] = '0';
-		add_one_carry_over(pos - 1, other);
-	} else {
-		number[pos] += 1;
-	}
-
-}
-
-
-
 /*
 decimal_align() is also a helper function, it's job is to align two numbers by decimal value.
+If the numbers are already aligned, it does nothing.
 For example:
 If A = 134.15
 and B = 3.4567
@@ -158,6 +125,9 @@ A = 134.1500
 B = 003.4567
 */
 void Bignum::decimal_align(Bignum& other) {
+	bool already_aligned = decimal_place == other.decimal_place and number.size() == other.number.size();
+	if (already_aligned) return;
+
 	int decimal_place_diff;
 	if (decimal_place > other.decimal_place) {
 		decimal_place_diff = decimal_place - other.decimal_place;
@@ -179,70 +149,58 @@ void Bignum::decimal_align(Bignum& other) {
 
 
 /*
+adds 2 Bignums, returns a Bignum
 */
-void Bignum::operator+(Bignum& other) {
+Bignum Bignum::operator+(Bignum& other) {
 	// if (sign != other.sign) {
 	// 	operator-=(other);
 	// 	return;
 	// }
-	
-	combine(other);
-
-
-}
-
-
-/*
-This is a helper member function, it is the function that actually does addition
-The basic idea is that substr's of A and B are stored seperately, then stored as
-long long ints. 
-*/
-void Bignum::combine(Bignum& other) {
 	decimal_align(other);
+	bool is_carry = false;
+
 	int end_pos = (int)number.size() - 1;
 	int start_pos = end_pos - DIGITS_PER_LL;
-	int current_size = (int)number.size();
-	int size_change = 0;
+	int pos_diff;
+	int decimal_pos = decimal_place;
+	string str_A, str_B, result;
+	long long int num_A, num_B;
+
+
 	while (true) {
 		if (start_pos < 0) {start_pos = 0;}
 		if (end_pos < 0) {break;}
-		substr_add_replace(start_pos, end_pos, other);
-		size_change = (int)number.size() - current_size;
-		if (size_change > 0) {
-			end_pos += size_change;
-			start_pos += size_change;
+		pos_diff = end_pos - start_pos + 1;
+		str_A = number.substr(start_pos, pos_diff);
+		str_B = other.number.substr(start_pos, pos_diff);
+		num_A = stoll(str_A);
+		num_B = stoll(str_B);
+		num_A += num_B;
+		if (is_carry) {
+			num_A += 1;
+			is_carry = false;
+		}
+		str_A = to_string(num_A);
+		int size_diff = str_A.size() - str_B.size(); 
+		if (size_diff < 0) {
+			string addleft(size_diff, '0');
+			str_A.insert(0, addleft);
+		} else if (size_diff > 0) {
+			is_carry = true;
+			str_A = str_A.substr(1);
+		}
+		result.insert(0, str_A);
+		if (is_carry and start_pos == 0) { 
+			result.insert(0, "1");
+			decimal_pos += 1;
 		}
 		end_pos -= (DIGITS_PER_LL + 1);
 		start_pos -= (DIGITS_PER_LL + 1);
 	}
-}
-
-/*
-Helper Function, implemented to help reduce the maount of code in combiner
-it takes aa start pos and end pos
-*/
-void Bignum::substr_add_replace(int start_pos, int end_pos, Bignum& other) {
-	int pos_diff = end_pos - start_pos + 1;
-	string str_A = number.substr(start_pos, pos_diff);
-	string str_B = other.number.substr(start_pos, pos_diff);
-	long long int num_A = stoll(str_A);
-	long long int num_B = stoll(str_B);
-	num_A += num_B;
-	string sum = to_string(num_A);
-	int size_diff = pos_diff - sum.size(); 
-	if (size_diff < 0 and start_pos == 0) {
-		add_one_carry_over(start_pos, other);	
-		number.replace(start_pos + 1, pos_diff, sum.substr(1));
-	} else if(size_diff < 0 and start_pos != 0) {
-		add_one_carry_over(start_pos, other);
-		number.replace(start_pos + 1, pos_diff, sum.substr(1));
-	} else if (size_diff > 0) {
-		string addleft(size_diff, '0');
-		sum.insert(0, addleft);
-		number.replace(start_pos, pos_diff, sum);
-	} else {
-		number.replace(start_pos, pos_diff, sum);
-	}
+	Bignum C(result);
+	C.decimal_place = decimal_pos;
+	C.isNegative = isNegative;
+	return C;
 }
 
 

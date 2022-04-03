@@ -6,7 +6,7 @@ Driver code for illustration of Bignum class.
 Author: Brandon W
 
 Last Edit Date:
-3/24/22
+4/03/22
 
 */
 
@@ -37,27 +37,6 @@ string file_reader(string file) {
 	return number_string;
 }
 
-/*
-Applies += operator with some QoL text
-including scientific notation prints outs to get
-a sense of how big the numbers are
-*/
-void adder(Bignum A, Bignum B) {
-	cout << "A = ";
-	A.print_scientific_notation();
-	cout << "B = ";
-	B.print_scientific_notation();
-	A += B;
-	cout << "A + B = ";
-	A.print_scientific_notation();
-
-	ofstream output("C.txt");
-	output << A.print_num() << endl;
-	output.close();
-
-	cout << "Full answer stored in C.txt" << endl;
-}
-
 
 
 void driver(int argc, char const *argv[]) {
@@ -70,10 +49,14 @@ void driver(int argc, char const *argv[]) {
   	number_a_string = file_reader(file_A);
   	number_b_string = file_reader(file_B);
 	
-	Bignum number_a = Bignum(number_a_string);
-	Bignum number_b = Bignum(number_b_string);
+	Bignum A(number_a_string);
+	Bignum B(number_b_string);
 
-	adder(number_a, number_b);
+	cout << "A = " << A.getnum() << endl;
+	cout << "B = " << B.getnum() << endl;
+
+	Bignum C = A + B;
+	cout << "A + B = " << C.getnum() << endl;
 }
 
 
