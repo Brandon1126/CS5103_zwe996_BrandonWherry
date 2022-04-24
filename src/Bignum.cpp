@@ -57,7 +57,6 @@ Bignum::Bignum(string& file_string) {
 }
 
 
-
 // Returns the Bignum as a string
 string Bignum::getnum() const {
 	string return_string;
@@ -73,10 +72,12 @@ string Bignum::getnum() const {
 
 // Returns the Bignum as a string
 string Bignum::getexpnum() const {
+    if (this->getnum().compare("0.0") == 0) return "0.0e0";
+    if (this->getnum().compare("-0.0") == 0) return "0.0e0";
 	string return_string;
 	if (isNegative) return_string.append(1, '-');
 	int first_nonzero_digit_location = 0;
-	// Finds most signifigant digit
+	// Finds most significant digit
 	for (auto digit : number) {
 		if (digit != '0') break;
 		first_nonzero_digit_location++;
@@ -145,7 +146,6 @@ void Bignum::decimal_align(Bignum& other) {
 		add_zeros_right(size_diff);
 	}
 }
-
 
 
 /**
@@ -222,7 +222,6 @@ Bignum Bignum::operator+(Bignum& other) {
 	C.compress();
 	return C;
 }
-
 
 
 /**
@@ -331,7 +330,6 @@ bool Bignum::operator>(Bignum& other) {
 }
 
 
-
 /**
  * Description:
  * Compress() removes leading 0s and trailing 0s.
@@ -347,6 +345,7 @@ void Bignum::compress() {
 		if (number[pos] == '0') {
 			number.erase(pos, 1);
 			decimal_place -= 1;
+			if (decimal_place == 0) break;
 		}
 		else {break;}
 	}

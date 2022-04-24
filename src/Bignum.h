@@ -18,6 +18,7 @@ public:
 	//operator overloads
 	Bignum operator+(Bignum&); 
 	Bignum operator-(Bignum&);
+	Bignum operator*(Bignum&);
 
 private:
 	string number;
@@ -35,6 +36,4 @@ private:
 
 	bool operator<(Bignum&);
 	bool operator>(Bignum&);
-	
-
 };

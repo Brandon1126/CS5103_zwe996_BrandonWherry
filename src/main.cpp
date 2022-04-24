@@ -10,13 +10,11 @@ Last Edit Date:
 
 */
 
-
 #include "Bignum.h"
 #include <iostream>
 #include <string>
 #include <vector>
 #include <fstream>
-
 
 using namespace std;
 
@@ -44,7 +42,9 @@ Bignum bignum_ALU(Bignum& A, Bignum& B, string& operation) {
 	if (operation == "sub") {
 		return A - B;
 	}
-
+//    if (operation == "mul") {
+//        return A * B;
+//    }
 	return A + B;
 }
 
@@ -55,10 +55,12 @@ string operation_selector(string& operation) {
 	if (operation == "sub") {
 		return "-";
 	}
+	if (operation == "mul") {
+        return "*";
+    }
 
-	return " (Error: unknown op, default is addition) ";
+	return " (Error: unknown operation, default is addition, please state: add sub or mul) ";
 }
-
 
 void driver(int argc, char const *argv[]) {
 	string file_A, file_B, operation;
@@ -80,15 +82,20 @@ void driver(int argc, char const *argv[]) {
 	cout << "A " << operation_selector(operation) << " B = " << C.getexpnum() << endl;
 
 	cout << "Writing exact answer to C.txt" << endl;
+	cout << endl;
 
-	ofstream result("C.txt");
+    ofstream result("C.txt");
+    string output_string(C.getnum());
 
-	result << C.getnum();
+    int characters_per_line = 100;
+    for (int i = 0; i < output_string.size(); i += characters_per_line) {
+        result << C.getnum().substr(i, characters_per_line);
+        result << "\n";
+    }
 
 	result.close();
 
 }
-
 
 int main(int argc, char const *argv[]) {
 	driver(argc, argv);
