@@ -6,7 +6,7 @@ Driver code for illustration of Bignum class.
 Author: Brandon W
 
 Last Edit Date:
-4/03/22
+4/25/22
 
 */
 
@@ -45,6 +45,7 @@ Bignum bignum_ALU(Bignum& A, Bignum& B, string& operation) {
     if (operation == "mul") {
         return A * B;
     }
+    // Addition is used if the operation is not recognized
 	return A + B;
 }
 
@@ -58,10 +59,10 @@ string operation_selector(string& operation) {
 	if (operation == "mul") {
         return "*";
     }
-
-	return " (Error: unknown operation, default is addition, please state: 'add', 'sub', or 'mul') ";
+	return "Failed to identify operator";
 }
 
+// main driver code to display the Bignum class in action
 void driver(int argc, char const *argv[]) {
 	string file_A, file_B, operation;
 	operation = argv[1];
@@ -97,7 +98,34 @@ void driver(int argc, char const *argv[]) {
 
 }
 
+// this function is called if insufficient arguments are provided.
+void helper_function() {
+    cout << "Computation has been aborted, correct arguments not found!" << endl;
+    cout << "Use one of the following:" << endl;
+    cout << "./BigNumberMath add A.txt B.txt" << endl;
+    cout << "./BigNumberMath sub A.txt B.txt" << endl;
+    cout << "./BigNumberMath mul A.txt B.txt" << endl;
+}
+
+
 int main(int argc, char const *argv[]) {
+    if (argc != 4) {
+        helper_function();
+        return -1;
+    }
+    string operation(argv[1]);
+    bool is_operation_incorrect = operation.compare("add") != 0 and operation.compare("sub") != 0
+        and operation.compare("mul") != 0;
+    if (is_operation_incorrect) {
+        helper_function();
+        return -1;
+    }
+
+    // The driver code is executed by getting past the above checks
+    // 3 commandline arguments must be given:
+    // 1) the operation (add, sub, or mul)
+    // 2) First input (A.txt for example)
+    // 3) Second input (B.txt for example)
 	driver(argc, argv);
 	return 0;
 }
