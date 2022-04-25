@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# These lines remove old results
+# Removes old results
 rm -f normal_tests_results.txt
 rm -f unusual_tests_results.txt
 
