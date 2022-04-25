@@ -1,21 +1,16 @@
 # User Stories & Test Cases:
-(top is highest priority)
-
-
-
-# Ongoing:
-
-
-
-
-
-
-
-
-
 
 
 # Completed:
+Story:
+I should be able to multiply two numbers together, and the exact answer should be printed to a file, while the approximate
+answer should be printed in scientific notation on the console.
+
+Test cases:
+Testing is demonstrated in TESTSUITE.md
+
+
+
 
 Story:
 I should be able to specify add when running the program, the answer should be printed in scientific notation, and also stored in "C.txt" in exact form.
