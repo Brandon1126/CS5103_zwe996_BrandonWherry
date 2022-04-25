@@ -326,12 +326,27 @@ Bignum Bignum::operator-(Bignum& other) {
  * Multiplies two Bignums.
  *
  * Description:
- * The basic idea is that a resulting Bignum is created to store all
- * Additions generated from a double for loop. This double for loop cross multiplies
- * all pieces of the two Bignums
- *
- *
- *
+ * The basic idea is that a resulting Bignum is created to store all cross-multiply
+ * additions that are generated from a double loop. This double multiplies pieces of the numbers 1 by 1
+ * The number of digits that are handled each time is depended on the machine/compiler being used.
+ * But for most systems, it's likely to be 8 digit segments. This is because 8 digits times 8 digits
+ * cannot be more than 16 digits, which can be stored in an long long int. I've opted to not comment this code,
+ * as it's likely going to add to the confusing, and the number of lines needed for the method. But here is an illustration
+ * of what's going on.
+
+ Suppose we want to multiply 123456789123456789 times 123456789, and
+ suppose 4 digits of each number will be used at a time.
+
+ The first step in this process is to create a Bignum that can hold 18 + 9 = 27 digits.
+ This is because we know 18 digits times 9 digits will at most have 27 digits.
+ (We also know where the decimal place would be, but I left out the decimals in this explanation for simplicity
+ but both number are allowed to have decimals).
+
+ The first multiplication would be 6789 * 6789. This result will be added to that 27 digit result Bignum
+ (which is initialized to be all 0s). Then the next multiplication will be 2345 * 6789, and then that will be added.
+ So on and so forth. Most of the code is dedicated to handling the indices of which pieces will be used.
+ The time complexity of this method is definitely not the best.
+
  * @param Bignum to be added
  * @return a Bignum result
  *
