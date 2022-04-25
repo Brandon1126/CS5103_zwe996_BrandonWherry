@@ -9,7 +9,7 @@ Author:
 Brandon W
 
 Last Edit Date:
-4/03/22
+4/25/22
 
 */
 
@@ -54,6 +54,17 @@ Bignum::Bignum(string& file_string) {
 	} else {
 		number = file_string.substr(0, decimal_place) + file_string.substr(decimal_place + 1);
 	}
+	// searching for non-numeric characters
+	auto found_char = number.find_first_not_of("0123456789");
+	if (found_char != string::npos) {
+	    cout << "Illegal character found during construction of Bignum: '" << number[found_char] << "'" << endl;
+	    cout << "Character pos in file: " << found_char << "  (Could be a second decimal or a non-numeric character) " << endl;
+	    cout << "Using a value of 1.0 instead" << endl;
+	    number = "10";
+	    decimal_place = 1;
+	    isNegative = false;
+	}
+
 }
 
 
@@ -368,9 +379,11 @@ Bignum Bignum::operator*(Bignum& other) {
 
 
 /**
- * 
+ * Description:
  * Comparison operators go from MSB -> LSB, and compare each value one by one.
- * 
+ * If a value is found to be clearly larger or smaller in the MSB, then a return
+ * can happen.
+ *
  * @param other Bignum that is compared against *This Bignum
  * @return true or false
  * 
@@ -398,8 +411,8 @@ bool Bignum::operator>(Bignum& other) {
 /**
  * Description:
  * Compress() removes leading 0s and trailing 0s.
- * This method is used at the end of addition or subtraction in order 
- * to remove excess 0s, should they arise.
+ * This method is used when getnum() or getexpnum() are called.
+ * This way, all excess 0's can be removed prior to printing the number
  * 
  * @param None
  * @return None
