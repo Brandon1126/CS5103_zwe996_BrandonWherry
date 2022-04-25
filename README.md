@@ -1,8 +1,8 @@
 ## CS5103_zwe996_BrandonWherry
-Version: 1.0 beta
+Version: 2.0
 Course Project - Big number Computation
 
-A.txt and B.txt are 2 source files for the numbers to be added or subtracted.
+A.txt and B.txt are 2 source files for the numbers to be added, subtracted, or multiple.
 
 
 
@@ -97,4 +97,7 @@ Both A and B will be printed back in scientific notation with 5 sig figs.
 This is to get a general sense of magnitude for each number.
 The answer is printed out in scientific notation, and
 the exact answer is redirected to "C.txt".
+
+# Testing suites
+See TESTSUITE.md to see testing details
 

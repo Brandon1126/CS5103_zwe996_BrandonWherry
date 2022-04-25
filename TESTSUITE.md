@@ -5,7 +5,7 @@ The first testing suite is provided by bash script "testsuite_normal.sh"**
 ![testing1.png](testing1.png)
 
 **This script performs a double loop over 10 different inputs, found in the "testnums_normal" dir.
-I focused on using a wide range of knowingly valid inputs to access
+I focused on using a wide range of knowingly valid inputs to assess
 the accuracy of the outputs. 100 different tests are generated from different combinations of these inputs. Addition, Subtraction, and 
 Multiplication are all performed with each test configuration (resulting in 300 operations in total). 
 All outputs are found in "normal_tests_results.txt". These tests can be performed again by running the script
