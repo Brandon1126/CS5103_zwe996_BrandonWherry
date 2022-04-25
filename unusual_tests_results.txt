@@ -1,191 +1,356 @@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = 0.0e0
-B = 0.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A + B = 0.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A - B = 0.0e0
+A - B = 1.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = 0.0e0
-B = 1.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = 1.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = 1.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 0.0e0
-B = -1.0e0
-A + B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = -1.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 0.0e0
-B = -1.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test4.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test5.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A + B = 1.0004e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A * B = 4.562e-4
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test6.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test7.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A + B = -9.45e-2
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A - B = 2.0945e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test8.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test9.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test0.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
 A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
 A - B = -1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test0.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = 0.0e0
-B = 2.0e0
-A + B = 2.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 2.0e0
-A - B = -2.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 2.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test0.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = 0.0e0
-B = 3.0e0
-A + B = 3.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 3.0e0
-A - B = -3.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 3.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test0.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = 0.0e0
-B = -1.0e0
-A + B = -1.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -1.0e0
-A - B = 1.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -1.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test0.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = 0.0e0
-B = -2.0e0
-A + B = -2.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -2.0e0
-A - B = 2.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -2.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test0.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = 0.0e0
-B = -3.0e0
-A + B = -3.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -3.0e0
-A - B = 3.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -3.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test1.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = 0.0e0
-B = 0.0e0
-A + B = 0.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 0.0e0
-A - B = 0.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test1.txt @@@@@@
+Performing +, -, and * on A and B
 A = 0.0e0
 B = 0.0e0
 A + B = 0.0e0
@@ -203,50 +368,71 @@ Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test2.txt @@@@@@
+Performing +, -, and * on A and B
 A = 0.0e0
-B = 1.0e0
-A + B = 1.0e0
+B = 1.1e1
+A + B = 1.1e1
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = 1.0e0
-A - B = -1.0e0
+B = 1.1e1
+A - B = -1.1e1
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = 1.0e0
+B = 1.1e1
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 0.0e0
-B = -1.0e0
-A + B = -1.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -1.0e0
-A - B = 1.0e0
-Writing exact answer to C.txt
-
-A = 0.0e0
-B = -1.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test1.txt @@@@@@@@@ B = test4.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
 A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
 A - B = -1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 0.0e0
+B = 1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test4.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 0.0e0
+B = 1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 0.0e0
+B = 1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
 B = 1.0e0
 A * B = 0.0e0
@@ -254,458 +440,737 @@ Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test5.txt @@@@@@
+Performing +, -, and * on A and B
 A = 0.0e0
-B = 2.0e0
-A + B = 2.0e0
+B = 4.562e-4
+A + B = 4.562e-4
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = 2.0e0
-A - B = -2.0e0
+B = 4.562e-4
+A - B = -4.562e-4
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = 2.0e0
+B = 4.562e-4
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test6.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = 3.0e0
-A + B = 3.0e0
+B = 1.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = 3.0e0
-A - B = -3.0e0
+B = 1.0e0
+A - B = -1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = 3.0e0
+B = 1.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test7.txt @@@@@@
+Performing +, -, and * on A and B
 A = 0.0e0
-B = -1.0e0
-A + B = -1.0e0
+B = -1.0945e0
+A + B = -1.0945e0
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = -1.0e0
-A - B = 1.0e0
+B = -1.0945e0
+A - B = 1.0945e0
 Writing exact answer to C.txt
 
 A = 0.0e0
-B = -1.0e0
+B = -1.0945e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test8.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -2.0e0
-A + B = -2.0e0
+B = 1.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -2.0e0
-A - B = 2.0e0
+B = 1.0e0
+A - B = -1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -2.0e0
+B = 1.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test9.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -3.0e0
-A + B = -3.0e0
+B = 1.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -3.0e0
-A - B = 3.0e0
+B = 1.0e0
+A - B = -1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 0.0e0
-B = -3.0e0
+B = 1.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = 1.0e0
-B = 0.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = 0.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = 1.0e0
+Performing +, -, and * on A and B
+A = 1.1e1
 B = 0.0e0
-A + B = 1.0e0
+A + B = 1.1e1
 Writing exact answer to C.txt
 
-A = 1.0e0
+A = 1.1e1
 B = 0.0e0
-A - B = 1.0e0
+A - B = 1.1e1
 Writing exact answer to C.txt
 
-A = 1.0e0
+A = 1.1e1
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = 1.0e0
-B = 1.0e0
-A + B = 2.0e0
+Performing +, -, and * on A and B
+A = 1.1e1
+B = 1.1e1
+A + B = 2.2e1
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = 1.0e0
+A = 1.1e1
+B = 1.1e1
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = 1.0e0
-A * B = 1.0e0
+A = 1.1e1
+B = 1.1e1
+A * B = 1.21e2
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 1.0e0
-B = -1.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = -1.0e0
-A - B = 2.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
 Writing exact answer to C.txt
 
-A = 1.0e0
-B = -1.0e0
-A * B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test4.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test5.txt @@@@@@
+Performing +, -, and * on A and B
+A = 1.1e1
+B = 4.562e-4
+A + B = 1.1000e1
+Writing exact answer to C.txt
+
+A = 1.1e1
+B = 4.562e-4
+A - B = -8.9000e1
+Writing exact answer to C.txt
+
+A = 1.1e1
+B = 4.562e-4
+A * B = 5.0182e-3
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test6.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test7.txt @@@@@@
+Performing +, -, and * on A and B
+A = 1.1e1
+B = -1.0945e0
+A + B = -9.0094e1
+Writing exact answer to C.txt
+
+A = 1.1e1
+B = -1.0945e0
+A - B = 1.2094e1
+Writing exact answer to C.txt
+
+A = 1.1e1
+B = -1.0945e0
+A * B = -1.2039e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test8.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test9.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A + B = 1.2e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A - B = 1.0e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.1e1
+B = 1.0e0
+A * B = 1.1e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test0.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test2.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = 1.0e0
-B = 2.0e0
-A + B = 3.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = 2.0e0
-A - B = -1.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = 2.0e0
-A * B = 2.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test2.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = 1.0e0
-B = 3.0e0
-A + B = 4.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = 3.0e0
-A - B = -2.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = 3.0e0
-A * B = 3.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test2.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = 1.0e0
-B = -1.0e0
-A + B = 0.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -1.0e0
-A - B = 2.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -1.0e0
-A * B = -1.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test2.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = 1.0e0
-B = -2.0e0
-A + B = -1.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -2.0e0
-A - B = 3.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -2.0e0
-A * B = -2.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test2.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = 1.0e0
-B = -3.0e0
-A + B = -2.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -3.0e0
-A - B = 4.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -3.0e0
-A * B = -3.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test3.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = -1.0e0
-B = 0.0e0
-A + B = -1.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 0.0e0
-A - B = -1.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 0.0e0
-A * B = 0.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A + B = -1.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A - B = -1.0e0
+A - B = 1.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = -1.0e0
-B = 1.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 1.0e0
-A - B = -2.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 1.0e0
-A * B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = -1.0e0
-B = -1.0e0
-A + B = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A + B = 0.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 1.0e0
-A - B = -2.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 1.0e0
-A * B = -1.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test3.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = -1.0e0
-B = 2.0e0
-A + B = 1.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 2.0e0
-A - B = -3.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 2.0e0
-A * B = -2.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test3.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = -1.0e0
-B = 3.0e0
 A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 3.0e0
-A - B = -4.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = 3.0e0
-A * B = -3.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test3.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = -1.0e0
-B = -1.0e0
-A + B = -2.0e0
-Writing exact answer to C.txt
-
-A = -1.0e0
-B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test5.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A + B = 1.0004e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A * B = 4.562e-4
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test6.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test7.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A + B = -9.45e-2
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A - B = 2.0945e0
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = -1.0e0
-B = -2.0e0
-A + B = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -2.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -2.0e0
-A * B = 2.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = -1.0e0
-B = -3.0e0
-A + B = -4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -3.0e0
-A - B = 2.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -3.0e0
-A * B = 3.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test0.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 0.0e0
-A + B = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 0.0e0
-A - B = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 0.0e0
-A * B = 0.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test1.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 0.0e0
 A + B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 0.0e0
 A - B = 1.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
@@ -713,50 +1178,98 @@ Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test2.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
+Writing exact answer to C.txt
+
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test3.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@ A = test4.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 1.0e0
-B = -1.0e0
-A + B = 0.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -1.0e0
-A - B = 2.0e0
-Writing exact answer to C.txt
-
-A = 1.0e0
-B = -1.0e0
-A * B = -1.0e0
-Writing exact answer to C.txt
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test4.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
 B = 1.0e0
 A * B = 1.0e0
@@ -764,937 +1277,1630 @@ Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test5.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 2.0e0
-A + B = 3.0e0
+B = 4.562e-4
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 2.0e0
-A - B = -1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 2.0e0
-A * B = 2.0e0
+B = 4.562e-4
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test6.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 3.0e0
-A + B = 4.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 3.0e0
-A - B = -2.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = 3.0e0
-A * B = 3.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test7.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -1.0e0
-A + B = 0.0e0
+B = -1.0945e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -1.0e0
-A - B = 2.0e0
+B = -1.0945e0
+A - B = 2.0945e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -1.0e0
-A * B = -1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test8.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -2.0e0
-A + B = -1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -2.0e0
-A - B = 3.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -2.0e0
-A * B = -2.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test9.txt @@@@@@
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -3.0e0
-A + B = -2.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -3.0e0
-A - B = 4.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
 A = 1.0e0
-B = -3.0e0
-A * B = -3.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = 2.0e0
-B = 0.0e0
-A + B = 2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 0.0e0
-A - B = 2.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = 2.0e0
+Performing +, -, and * on A and B
+A = 4.562e-4
 B = 0.0e0
-A + B = 2.0e0
+A + B = 4.562e-4
 Writing exact answer to C.txt
 
-A = 2.0e0
+A = 4.562e-4
 B = 0.0e0
-A - B = 2.0e0
+A - B = 4.562e-4
 Writing exact answer to C.txt
 
-A = 2.0e0
+A = 4.562e-4
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = 2.0e0
-B = 1.0e0
-A + B = 3.0e0
+Performing +, -, and * on A and B
+A = 4.562e-4
+B = 1.1e1
+A + B = 1.1000e1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 1.0e0
-A - B = 1.0e0
+A = 4.562e-4
+B = 1.1e1
+A - B = -1.0999e1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 1.0e0
-A * B = 2.0e0
+A = 4.562e-4
+B = 1.1e1
+A * B = 5.0182e-3
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 2.0e0
-B = -1.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -1.0e0
-A - B = 3.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -1.0e0
-A * B = -2.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = 2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
 B = 1.0e0
-A + B = 3.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
 B = 1.0e0
-A - B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
 B = 1.0e0
-A * B = 2.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = 2.0e0
-B = 2.0e0
-A + B = 4.0e0
+Performing +, -, and * on A and B
+A = 4.562e-4
+B = 4.562e-4
+A + B = 9.124e-4
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 2.0e0
+A = 4.562e-4
+B = 4.562e-4
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 2.0e0
-A * B = 4.0e0
+A = 4.562e-4
+B = 4.562e-4
+A * B = 2.0811e-7
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = 2.0e0
-B = 3.0e0
-A + B = 5.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 3.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = 3.0e0
-A * B = 6.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = 2.0e0
-B = -1.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+A = 4.562e-4
+B = -1.0945e0
+A + B = -1.0940e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -1.0e0
-A - B = 3.0e0
+A = 4.562e-4
+B = -1.0945e0
+A - B = 1.0949e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -1.0e0
-A * B = -2.0e0
+A = 4.562e-4
+B = -1.0945e0
+A * B = -4.9931e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = 2.0e0
-B = -2.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -2.0e0
-A - B = 4.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -2.0e0
-A * B = -4.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = 2.0e0
-B = -3.0e0
-A + B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -3.0e0
-A - B = 5.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A - B = -9.9954e-1
 Writing exact answer to C.txt
 
-A = 2.0e0
-B = -3.0e0
-A * B = -6.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 4.562e-4
+B = 1.0e0
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = 3.0e0
-B = 0.0e0
-A + B = 3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 0.0e0
-A - B = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = 3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A + B = 3.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A - B = 3.0e0
+A - B = 1.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = 3.0e0
-B = 1.0e0
-A + B = 4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 1.0e0
-A - B = 2.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 1.0e0
-A * B = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = 3.0e0
-B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -1.0e0
-A - B = 4.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -1.0e0
-A * B = -3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = 3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A + B = 4.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A - B = 2.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A * B = 3.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = 3.0e0
-B = 2.0e0
-A + B = 5.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 2.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 2.0e0
-A * B = 6.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = 3.0e0
-B = 3.0e0
-A + B = 6.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = 3.0e0
-A * B = 9.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = 3.0e0
-B = -1.0e0
-A + B = 2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -1.0e0
-A - B = 4.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A - B = 2.0945e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -1.0e0
-A * B = -3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = 3.0e0
-B = -2.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -2.0e0
-A - B = 5.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -2.0e0
-A * B = -6.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = 3.0e0
-B = -3.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -3.0e0
-A - B = 6.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = 3.0e0
-B = -3.0e0
-A * B = -9.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = -1.0e0
-B = 0.0e0
-A + B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 0.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = -1.0e0
+Performing +, -, and * on A and B
+A = -1.0945e0
 B = 0.0e0
-A + B = -1.0e0
+A + B = -1.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
+A = -1.0945e0
 B = 0.0e0
-A - B = -1.0e0
+A - B = -1.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
+A = -1.0945e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = -1.0e0
-B = 1.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+A = -1.0945e0
+B = 1.1e1
+A + B = 9.9055e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 1.0e0
-A - B = -2.0e0
+A = -1.0945e0
+B = 1.1e1
+A - B = -1.2094e1
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 1.0e0
-A * B = -1.0e0
+A = -1.0945e0
+B = 1.1e1
+A * B = -1.2039e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = -1.0e0
-B = -1.0e0
-A + B = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
-A - B = 0.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
-A * B = 1.0e0
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
 B = 1.0e0
-A + B = 0.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
 B = 1.0e0
-A - B = -2.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
 B = 1.0e0
-A * B = -1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = -1.0e0
-B = 2.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+A = -1.0945e0
+B = 4.562e-4
+A + B = 8.9059e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 2.0e0
-A - B = -3.0e0
+A = -1.0945e0
+B = 4.562e-4
+A - B = -1.0949e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 2.0e0
-A * B = -2.0e0
+A = -1.0945e0
+B = 4.562e-4
+A * B = -4.9931e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = -1.0e0
-B = 3.0e0
-A + B = 2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 3.0e0
-A - B = -4.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = 3.0e0
-A * B = -3.0e0
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = -1.0e0
-B = -1.0e0
-A + B = -2.0e0
+Performing +, -, and * on A and B
+A = -1.0945e0
+B = -1.0945e0
+A + B = -2.189e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
+A = -1.0945e0
+B = -1.0945e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -1.0e0
-A * B = 1.0e0
+A = -1.0945e0
+B = -1.0945e0
+A * B = 1.1979e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = -1.0e0
-B = -2.0e0
-A + B = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -2.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -2.0e0
-A * B = 2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = -1.0e0
-B = -3.0e0
-A + B = -4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -3.0e0
-A - B = 2.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A - B = -2.0945e0
 Writing exact answer to C.txt
 
-A = -1.0e0
-B = -3.0e0
-A * B = 3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = -1.0945e0
+B = 1.0e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = -2.0e0
-B = 0.0e0
-A + B = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 0.0e0
-A - B = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A + B = -2.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A - B = -2.0e0
+A - B = 1.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = -2.0e0
-B = 1.0e0
-A + B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 1.0e0
-A - B = -3.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 1.0e0
-A * B = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = -2.0e0
-B = -1.0e0
-A + B = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -1.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -1.0e0
-A * B = 2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A + B = -1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A - B = -3.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A * B = -2.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = -2.0e0
-B = 2.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 2.0e0
-A - B = -4.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 2.0e0
-A * B = -4.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = -2.0e0
-B = 3.0e0
-A + B = 1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 3.0e0
-A - B = -5.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = 3.0e0
-A * B = -6.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = -2.0e0
-B = -1.0e0
-A + B = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -1.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A - B = 2.0945e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -1.0e0
-A * B = 2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = -2.0e0
-B = -2.0e0
-A + B = -4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -2.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -2.0e0
-A * B = 4.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = -2.0e0
-B = -3.0e0
-A + B = -5.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -3.0e0
-A - B = 1.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -2.0e0
-B = -3.0e0
-A * B = 6.0e0
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test0.txt @@@@@@
-A = -3.0e0
-B = 0.0e0
-A + B = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 0.0e0
-A - B = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 0.0e0
-A * B = 0.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'z'
+Character pos in file: 2  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test1.txt @@@@@@
-A = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A + B = -3.0e0
+A + B = 1.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
-A - B = -3.0e0
+A - B = 1.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 0.0e0
 A * B = 0.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test2.txt @@@@@@
-A = -3.0e0
-B = 1.0e0
-A + B = -2.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A + B = 1.2e1
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 1.0e0
-A - B = -4.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A - B = -1.0e1
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 1.0e0
-A * B = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.1e1
+A * B = 1.1e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test3.txt @@@@@@
-A = -3.0e0
-B = -1.0e0
-A + B = -4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -1.0e0
-A - B = -2.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -1.0e0
-A * B = 3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '-'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test4.txt @@@@@@
-A = -3.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A + B = -2.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A - B = -4.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: '.'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
 B = 1.0e0
-A * B = -3.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test5.txt @@@@@@
-A = -3.0e0
-B = 2.0e0
-A + B = -1.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A + B = 1.0004e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 2.0e0
-A - B = -5.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A - B = -9.0004e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 2.0e0
-A * B = -6.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 4.562e-4
+A * B = 4.562e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test6.txt @@@@@@
-A = -3.0e0
-B = 3.0e0
-A + B = 0.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 3.0e0
-A - B = -6.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = 3.0e0
-A * B = -9.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'y'
+Character pos in file: 1  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test7.txt @@@@@@
-A = -3.0e0
-B = -1.0e0
-A + B = -4.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A + B = -9.45e-2
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -1.0e0
-A - B = -2.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A - B = 2.0945e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -1.0e0
-A * B = 3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = -1.0945e0
+A * B = -1.0945e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test8.txt @@@@@@
-A = -3.0e0
-B = -2.0e0
-A + B = -5.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -2.0e0
-A - B = -1.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -2.0e0
-A * B = 6.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'b'
+Character pos in file: 0  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test9.txt @@@@@@
-A = -3.0e0
-B = -3.0e0
-A + B = -6.0e0
+Performing +, -, and * on A and B
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -3.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
 A - B = 0.0e0
 Writing exact answer to C.txt
 
-A = -3.0e0
-B = -3.0e0
-A * B = 9.0e0
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+Illegal character found during construction of Bignum: 'e'
+Character pos in file: 6  (Could be a second decimal or a non-numeric character) 
+Using a value of 1.0 instead
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+Invalid program inputs
+ 
+ 
+Trying command ./BigNumberMath with no arguments
+Computation has been aborted, correct arguments not found!
+Use one of the following:
+./BigNumberMath add A.txt B.txt
+./BigNumberMath sub A.txt B.txt
+./BigNumberMath mul A.txt B.txt
+ 
+Trying command ./BigNumberMath blah A.txt B.txt
+Computation has been aborted, correct arguments not found!
+Use one of the following:
+./BigNumberMath add A.txt B.txt
+./BigNumberMath sub A.txt B.txt
+./BigNumberMath mul A.txt B.txt
+ 
+Trying command ./BigNumberMath add A.txt
+Computation has been aborted, correct arguments not found!
+Use one of the following:
+./BigNumberMath add A.txt B.txt
+./BigNumberMath sub A.txt B.txt
+./BigNumberMath mul A.txt B.txt
+ 
+Testing completed
