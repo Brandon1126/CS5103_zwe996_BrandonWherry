@@ -1,0 +1,1700 @@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 0.0e0
+B = 0.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 0.0e0
+B = 0.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 0.0e0
+B = 1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 0.0e0
+B = -1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 0.0e0
+B = 1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 0.0e0
+B = 2.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 2.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 2.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 0.0e0
+B = 3.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 3.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 3.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 0.0e0
+B = -1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 0.0e0
+B = -2.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -2.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -2.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test0.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 0.0e0
+B = -3.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -3.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -3.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 0.0e0
+B = 0.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 0.0e0
+B = 0.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 0.0e0
+B = 1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 0.0e0
+B = -1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 0.0e0
+B = 1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 0.0e0
+B = 2.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 2.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 2.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 0.0e0
+B = 3.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 3.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = 3.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 0.0e0
+B = -1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -1.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 0.0e0
+B = -2.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -2.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -2.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test1.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 0.0e0
+B = -3.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -3.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 0.0e0
+B = -3.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 1.0e0
+B = 0.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 1.0e0
+B = 0.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 1.0e0
+B = -1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 1.0e0
+B = 2.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 2.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 2.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 1.0e0
+B = 3.0e0
+A + B = 4.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 3.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 3.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 1.0e0
+B = -1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 1.0e0
+B = -2.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -2.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -2.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test2.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 1.0e0
+B = -3.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -3.0e0
+A - B = 4.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -3.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = -1.0e0
+B = 0.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = -1.0e0
+B = 0.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = -1.0e0
+B = 1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = -1.0e0
+B = -1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = -1.0e0
+B = 1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = -1.0e0
+B = 2.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 2.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 2.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = -1.0e0
+B = 3.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 3.0e0
+A - B = -4.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 3.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = -1.0e0
+B = -1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = -1.0e0
+B = -2.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -2.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -2.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test3.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = -1.0e0
+B = -3.0e0
+A + B = -4.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -3.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -3.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 1.0e0
+B = 0.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 1.0e0
+B = 0.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 1.0e0
+B = -1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 1.0e0
+B = 1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 1.0e0
+B = 2.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 2.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 2.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 1.0e0
+B = 3.0e0
+A + B = 4.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 3.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = 3.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 1.0e0
+B = -1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 1.0e0
+B = -2.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -2.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -2.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test4.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 1.0e0
+B = -3.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -3.0e0
+A - B = 4.0e0
+Writing exact answer to C.txt
+
+A = 1.0e0
+B = -3.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 2.0e0
+B = 0.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 0.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 2.0e0
+B = 0.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 0.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 2.0e0
+B = 1.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 1.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 2.0e0
+B = -1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -1.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -1.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 2.0e0
+B = 1.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 1.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 1.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 2.0e0
+B = 2.0e0
+A + B = 4.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 2.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 2.0e0
+A * B = 4.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 2.0e0
+B = 3.0e0
+A + B = 5.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 3.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = 3.0e0
+A * B = 6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 2.0e0
+B = -1.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -1.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -1.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 2.0e0
+B = -2.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -2.0e0
+A - B = 4.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -2.0e0
+A * B = -4.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test5.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 2.0e0
+B = -3.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -3.0e0
+A - B = 5.0e0
+Writing exact answer to C.txt
+
+A = 2.0e0
+B = -3.0e0
+A * B = -6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = 3.0e0
+B = 0.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 0.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = 3.0e0
+B = 0.0e0
+A + B = 3.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 0.0e0
+A - B = 3.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = 3.0e0
+B = 1.0e0
+A + B = 4.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 1.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = 3.0e0
+B = -1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -1.0e0
+A - B = 4.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -1.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = 3.0e0
+B = 1.0e0
+A + B = 4.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 1.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 1.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = 3.0e0
+B = 2.0e0
+A + B = 5.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 2.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 2.0e0
+A * B = 6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = 3.0e0
+B = 3.0e0
+A + B = 6.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 3.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = 3.0e0
+A * B = 9.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = 3.0e0
+B = -1.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -1.0e0
+A - B = 4.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -1.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = 3.0e0
+B = -2.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -2.0e0
+A - B = 5.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -2.0e0
+A * B = -6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test6.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = 3.0e0
+B = -3.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -3.0e0
+A - B = 6.0e0
+Writing exact answer to C.txt
+
+A = 3.0e0
+B = -3.0e0
+A * B = -9.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = -1.0e0
+B = 0.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = -1.0e0
+B = 0.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = -1.0e0
+B = 1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = -1.0e0
+B = -1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = -1.0e0
+B = 1.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 1.0e0
+A * B = -1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = -1.0e0
+B = 2.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 2.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 2.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = -1.0e0
+B = 3.0e0
+A + B = 2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 3.0e0
+A - B = -4.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = 3.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = -1.0e0
+B = -1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -1.0e0
+A * B = 1.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = -1.0e0
+B = -2.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -2.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -2.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test7.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = -1.0e0
+B = -3.0e0
+A + B = -4.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -3.0e0
+A - B = 2.0e0
+Writing exact answer to C.txt
+
+A = -1.0e0
+B = -3.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = -2.0e0
+B = 0.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 0.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = -2.0e0
+B = 0.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 0.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = -2.0e0
+B = 1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 1.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 1.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = -2.0e0
+B = -1.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -1.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = -2.0e0
+B = 1.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 1.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 1.0e0
+A * B = -2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = -2.0e0
+B = 2.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 2.0e0
+A - B = -4.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 2.0e0
+A * B = -4.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = -2.0e0
+B = 3.0e0
+A + B = 1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 3.0e0
+A - B = -5.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = 3.0e0
+A * B = -6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = -2.0e0
+B = -1.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -1.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -1.0e0
+A * B = 2.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = -2.0e0
+B = -2.0e0
+A + B = -4.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -2.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -2.0e0
+A * B = 4.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test8.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = -2.0e0
+B = -3.0e0
+A + B = -5.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -3.0e0
+A - B = 1.0e0
+Writing exact answer to C.txt
+
+A = -2.0e0
+B = -3.0e0
+A * B = 6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test0.txt @@@@@@
+A = -3.0e0
+B = 0.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 0.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test1.txt @@@@@@
+A = -3.0e0
+B = 0.0e0
+A + B = -3.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 0.0e0
+A - B = -3.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 0.0e0
+A * B = 0.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test2.txt @@@@@@
+A = -3.0e0
+B = 1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 1.0e0
+A - B = -4.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 1.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test3.txt @@@@@@
+A = -3.0e0
+B = -1.0e0
+A + B = -4.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -1.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test4.txt @@@@@@
+A = -3.0e0
+B = 1.0e0
+A + B = -2.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 1.0e0
+A - B = -4.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 1.0e0
+A * B = -3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test5.txt @@@@@@
+A = -3.0e0
+B = 2.0e0
+A + B = -1.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 2.0e0
+A - B = -5.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 2.0e0
+A * B = -6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test6.txt @@@@@@
+A = -3.0e0
+B = 3.0e0
+A + B = 0.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 3.0e0
+A - B = -6.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = 3.0e0
+A * B = -9.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test7.txt @@@@@@
+A = -3.0e0
+B = -1.0e0
+A + B = -4.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -1.0e0
+A - B = -2.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -1.0e0
+A * B = 3.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test8.txt @@@@@@
+A = -3.0e0
+B = -2.0e0
+A + B = -5.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -2.0e0
+A - B = -1.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -2.0e0
+A * B = 6.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@ A = test9.txt @@@@@@@@@ B = test9.txt @@@@@@
+A = -3.0e0
+B = -3.0e0
+A + B = -6.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -3.0e0
+A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -3.0e0
+B = -3.0e0
+A * B = 9.0e0
+Writing exact answer to C.txt
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

@@ -10,30 +10,45 @@ B = 1.2345e2
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = 1.2345e2
+B = 1.2345e2
+A * B = 1.5241e4
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
 A = 1.2345e2
-B = 1.234e3
-A + B = 1.3574e3
+B = 1.234e-6
+A + B = 1.2345e2
 Writing exact answer to C.txt
 
 A = 1.2345e2
-B = 1.234e3
-A - B = -1.1105e3
+B = 1.234e-6
+A - B = -8.7654e2
+Writing exact answer to C.txt
+
+A = 1.2345e2
+B = 1.234e-6
+A * B = 1.5234e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
 A = 1.2345e2
-B = -2.5e-1
-A + B = 1.2320e2
+B = -4.0002e2
+A + B = -2.7656e2
 Writing exact answer to C.txt
 
 A = 1.2345e2
-B = -2.5e-1
-A - B = 1.2370e2
+B = -4.0002e2
+A - B = 5.2348e2
+Writing exact answer to C.txt
+
+A = 1.2345e2
+B = -4.0002e2
+A * B = -4.9385e4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -49,6 +64,11 @@ B = 6.3477e7
 A - B = -6.3477e7
 Writing exact answer to C.txt
 
+A = 1.2345e2
+B = 6.3477e7
+A * B = 7.8366e9
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
@@ -62,17 +82,27 @@ B = -8.1234e11
 A - B = 8.1234e11
 Writing exact answer to C.txt
 
+A = 1.2345e2
+B = -8.1234e11
+A * B = -1.0028e14
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
 A = 1.2345e2
-B = 1.2345e-1
-A + B = 1.2357e2
+B = -7.1234e11
+A + B = -7.1234e11
 Writing exact answer to C.txt
 
 A = 1.2345e2
-B = 1.2345e-1
-A - B = -8.7666e2
+B = -7.1234e11
+A - B = 7.1234e11
+Writing exact answer to C.txt
+
+A = 1.2345e2
+B = -7.1234e11
+A * B = -8.7943e13
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -88,17 +118,27 @@ B = -1.4351e34
 A - B = 1.4351e34
 Writing exact answer to C.txt
 
+A = 1.2345e2
+B = -1.4351e34
+A * B = -1.7717e36
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
 A = 1.2345e2
-B = 9.9999e37
-A + B = 9.9999e37
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
 A = 1.2345e2
-B = 9.9999e37
-A - B = -9.9999e37
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = 1.2345e2
+B = -9.4351e34
+A * B = -1.1648e37
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -114,277 +154,387 @@ B = 2.1039e194
 A - B = -2.1039e194
 Writing exact answer to C.txt
 
+A = 1.2345e2
+B = 2.1039e194
+A * B = 2.5974e196
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test0.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
 A = 1.2345e2
-B = 2.1039e194
-A + B = 2.1039e194
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
 A = 1.2345e2
-B = 2.1039e194
-A - B = -2.1039e194
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = 1.2345e2
+B = -9.9939e194
+A * B = -1.2338e197
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test0.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
+A = 1.234e-6
 B = 1.2345e2
-A + B = 1.3574e3
+A + B = 1.2345e2
 Writing exact answer to C.txt
 
-A = 1.234e3
+A = 1.234e-6
 B = 1.2345e2
-A - B = -8.8894e3
+A - B = -1.2345e2
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = 1.2345e2
+A * B = 1.5234e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
-B = 1.234e3
-A + B = 2.468e3
+A = 1.234e-6
+B = 1.234e-6
+A + B = 2.468e-6
 Writing exact answer to C.txt
 
-A = 1.234e3
-B = 1.234e3
+A = 1.234e-6
+B = 1.234e-6
 A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = 1.234e-6
+A * B = 1.5227e-12
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
-B = -2.5e-1
-A + B = -8.7662e3
+A = 1.234e-6
+B = -4.0002e2
+A + B = -4.0002e2
 Writing exact answer to C.txt
 
-A = 1.234e3
-B = -2.5e-1
-A - B = 1.2342e3
+A = 1.234e-6
+B = -4.0002e2
+A - B = 4.0002e2
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -4.0002e2
+A * B = -4.9363e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test3.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
+A = 1.234e-6
 B = 6.3477e7
-A + B = 6.3478e7
+A + B = 6.3477e7
 Writing exact answer to C.txt
 
-A = 1.234e3
+A = 1.234e-6
 B = 6.3477e7
-A - B = -6.3476e7
+A - B = -6.3477e7
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = 6.3477e7
+A * B = 7.8331e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
+A = 1.234e-6
 B = -8.1234e11
 A + B = -8.1234e11
 Writing exact answer to C.txt
 
-A = 1.234e3
+A = 1.234e-6
 B = -8.1234e11
 A - B = 8.1234e11
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -8.1234e11
+A * B = -1.0024e6
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
-B = 1.2345e-1
-A + B = 1.2341e3
+A = 1.234e-6
+B = -7.1234e11
+A + B = -7.1234e11
 Writing exact answer to C.txt
 
-A = 1.234e3
-B = 1.2345e-1
-A - B = -8.7661e3
+A = 1.234e-6
+B = -7.1234e11
+A - B = 7.1234e11
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -7.1234e11
+A * B = -8.7903e5
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test6.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
+A = 1.234e-6
 B = -1.4351e34
 A + B = -1.4351e34
 Writing exact answer to C.txt
 
-A = 1.234e3
+A = 1.234e-6
 B = -1.4351e34
 A - B = 1.4351e34
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -1.4351e34
+A * B = -1.7709e28
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
-B = 9.9999e37
-A + B = 9.9999e37
+A = 1.234e-6
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = 1.234e3
-B = 9.9999e37
-A - B = -9.9999e37
+A = 1.234e-6
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -9.4351e34
+A * B = -1.1642e29
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test8.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
+A = 1.234e-6
 B = 2.1039e194
 A + B = 2.1039e194
 Writing exact answer to C.txt
 
-A = 1.234e3
+A = 1.234e-6
 B = 2.1039e194
 A - B = -2.1039e194
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = 2.1039e194
+A * B = 2.5962e188
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test1.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.234e3
-B = 2.1039e194
-A + B = 2.1039e194
+A = 1.234e-6
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 1.234e3
-B = 2.1039e194
-A - B = -2.1039e194
+A = 1.234e-6
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = 1.234e-6
+B = -9.9939e194
+A * B = -1.2332e189
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test0.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
+A = -4.0002e2
 B = 1.2345e2
-A + B = 1.2320e2
+A + B = 7.2343e2
 Writing exact answer to C.txt
 
-A = -2.5e-1
+A = -4.0002e2
 B = 1.2345e2
-A - B = -1.2370e2
+A - B = -5.2348e2
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = 1.2345e2
+A * B = -4.9385e4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
-B = 1.234e3
-A + B = 1.2337e3
+A = -4.0002e2
+B = 1.234e-6
+A + B = 5.9997e2
 Writing exact answer to C.txt
 
-A = -2.5e-1
-B = 1.234e3
-A - B = -1.2342e3
+A = -4.0002e2
+B = 1.234e-6
+A - B = -4.0002e2
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = 1.234e-6
+A * B = -4.9363e-4
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
-B = -2.5e-1
-A + B = -5.0e-1
+A = -4.0002e2
+B = -4.0002e2
+A + B = -8.0005e2
 Writing exact answer to C.txt
 
-A = -2.5e-1
-B = -2.5e-1
+A = -4.0002e2
+B = -4.0002e2
 A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -4.0002e2
+A * B = 1.6002e5
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test3.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
+A = -4.0002e2
 B = 6.3477e7
 A + B = 6.3477e7
 Writing exact answer to C.txt
 
-A = -2.5e-1
+A = -4.0002e2
 B = 6.3477e7
 A - B = -6.3477e7
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = 6.3477e7
+A * B = -2.5392e10
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
+A = -4.0002e2
 B = -8.1234e11
 A + B = -8.1234e11
 Writing exact answer to C.txt
 
-A = -2.5e-1
+A = -4.0002e2
 B = -8.1234e11
 A - B = 8.1234e11
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -8.1234e11
+A * B = 3.2495e14
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
-B = 1.2345e-1
-A + B = 9.9873e1
+A = -4.0002e2
+B = -7.1234e11
+A + B = -7.1234e11
 Writing exact answer to C.txt
 
-A = -2.5e-1
-B = 1.2345e-1
-A - B = -3.7345e-1
+A = -4.0002e2
+B = -7.1234e11
+A - B = 7.1234e11
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -7.1234e11
+A * B = 2.8495e14
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test6.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
+A = -4.0002e2
 B = -1.4351e34
 A + B = -1.4351e34
 Writing exact answer to C.txt
 
-A = -2.5e-1
+A = -4.0002e2
 B = -1.4351e34
 A - B = 1.4351e34
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -1.4351e34
+A * B = 5.7410e36
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
-B = 9.9999e37
-A + B = 9.9999e37
+A = -4.0002e2
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = -2.5e-1
-B = 9.9999e37
-A - B = -9.9999e37
+A = -4.0002e2
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -9.4351e34
+A * B = 3.7743e37
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test8.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
+A = -4.0002e2
 B = 2.1039e194
 A + B = 2.1039e194
 Writing exact answer to C.txt
 
-A = -2.5e-1
+A = -4.0002e2
 B = 2.1039e194
 A - B = -2.1039e194
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = 2.1039e194
+A * B = -8.4163e196
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test2.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
-A = -2.5e-1
-B = 2.1039e194
-A + B = 2.1039e194
+A = -4.0002e2
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = -2.5e-1
-B = 2.1039e194
-A - B = -2.1039e194
+A = -4.0002e2
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = -4.0002e2
+B = -9.9939e194
+A * B = 3.9978e197
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -400,30 +550,45 @@ B = 1.2345e2
 A - B = -3.6522e7
 Writing exact answer to C.txt
 
+A = 6.3477e7
+B = 1.2345e2
+A * B = 7.8366e9
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
 A = 6.3477e7
-B = 1.234e3
-A + B = 6.3478e7
+B = 1.234e-6
+A + B = 6.3477e7
 Writing exact answer to C.txt
 
 A = 6.3477e7
-B = 1.234e3
-A - B = 6.3476e7
+B = 1.234e-6
+A - B = -3.6522e7
+Writing exact answer to C.txt
+
+A = 6.3477e7
+B = 1.234e-6
+A * B = 7.8331e1
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
 A = 6.3477e7
-B = -2.5e-1
-A + B = 6.3477e7
+B = -4.0002e2
+A + B = -3.6522e7
 Writing exact answer to C.txt
 
 A = 6.3477e7
-B = -2.5e-1
+B = -4.0002e2
 A - B = 6.3477e7
+Writing exact answer to C.txt
+
+A = 6.3477e7
+B = -4.0002e2
+A * B = -2.5392e10
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -439,6 +604,11 @@ B = 6.3477e7
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = 6.3477e7
+B = 6.3477e7
+A * B = 4.0294e15
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
@@ -452,17 +622,27 @@ B = -8.1234e11
 A - B = 8.1240e11
 Writing exact answer to C.txt
 
+A = 6.3477e7
+B = -8.1234e11
+A * B = -5.1565e19
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
 A = 6.3477e7
-B = 1.2345e-1
-A + B = 6.3477e7
+B = -7.1234e11
+A + B = -7.1228e11
 Writing exact answer to C.txt
 
 A = 6.3477e7
-B = 1.2345e-1
-A - B = -3.6522e7
+B = -7.1234e11
+A - B = 7.1240e11
+Writing exact answer to C.txt
+
+A = 6.3477e7
+B = -7.1234e11
+A * B = -4.5217e19
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -478,17 +658,27 @@ B = -1.4351e34
 A - B = 1.4351e34
 Writing exact answer to C.txt
 
+A = 6.3477e7
+B = -1.4351e34
+A * B = -9.1100e41
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
 A = 6.3477e7
-B = 9.9999e37
-A + B = 9.9999e37
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
 A = 6.3477e7
-B = 9.9999e37
-A - B = -9.9999e37
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = 6.3477e7
+B = -9.4351e34
+A * B = -5.9892e42
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -504,17 +694,27 @@ B = 2.1039e194
 A - B = -2.1039e194
 Writing exact answer to C.txt
 
+A = 6.3477e7
+B = 2.1039e194
+A * B = 1.3355e202
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test3.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
 A = 6.3477e7
-B = 2.1039e194
-A + B = 2.1039e194
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
 A = 6.3477e7
-B = 2.1039e194
-A - B = -2.1039e194
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = 6.3477e7
+B = -9.9939e194
+A * B = -6.3439e202
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -530,30 +730,45 @@ B = 1.2345e2
 A - B = -8.1234e11
 Writing exact answer to C.txt
 
+A = -8.1234e11
+B = 1.2345e2
+A * B = -1.0028e14
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
 A = -8.1234e11
-B = 1.234e3
+B = 1.234e-6
 A + B = -8.1234e11
 Writing exact answer to C.txt
 
 A = -8.1234e11
-B = 1.234e3
+B = 1.234e-6
 A - B = -8.1234e11
+Writing exact answer to C.txt
+
+A = -8.1234e11
+B = 1.234e-6
+A * B = -1.0024e6
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
 A = -8.1234e11
-B = -2.5e-1
+B = -4.0002e2
 A + B = -8.1234e11
 Writing exact answer to C.txt
 
 A = -8.1234e11
-B = -2.5e-1
+B = -4.0002e2
 A - B = 1.8765e11
+Writing exact answer to C.txt
+
+A = -8.1234e11
+B = -4.0002e2
+A * B = 3.2495e14
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -569,6 +784,11 @@ B = 6.3477e7
 A - B = -8.1240e11
 Writing exact answer to C.txt
 
+A = -8.1234e11
+B = 6.3477e7
+A * B = -5.1565e19
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
@@ -582,17 +802,27 @@ B = -8.1234e11
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = -8.1234e11
+B = -8.1234e11
+A * B = 6.5990e23
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
 A = -8.1234e11
-B = 1.2345e-1
-A + B = 1.8765e11
+B = -7.1234e11
+A + B = -1.5246e12
 Writing exact answer to C.txt
 
 A = -8.1234e11
-B = 1.2345e-1
-A - B = -8.1234e11
+B = -7.1234e11
+A - B = -1.0000e11
+Writing exact answer to C.txt
+
+A = -8.1234e11
+B = -7.1234e11
+A * B = 5.7867e23
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -608,17 +838,27 @@ B = -1.4351e34
 A - B = 1.4351e34
 Writing exact answer to C.txt
 
+A = -8.1234e11
+B = -1.4351e34
+A * B = 1.1658e46
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
 A = -8.1234e11
-B = 9.9999e37
-A + B = 9.9999e37
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
 A = -8.1234e11
-B = 9.9999e37
-A - B = -9.9999e37
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = -8.1234e11
+B = -9.4351e34
+A * B = 7.6646e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -634,147 +874,207 @@ B = 2.1039e194
 A - B = -2.1039e194
 Writing exact answer to C.txt
 
+A = -8.1234e11
+B = 2.1039e194
+A * B = -1.7091e206
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test4.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
 A = -8.1234e11
-B = 2.1039e194
-A + B = 2.1039e194
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
 A = -8.1234e11
-B = 2.1039e194
-A - B = -2.1039e194
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = -8.1234e11
+B = -9.9939e194
+A * B = 8.1185e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test0.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
+A = -7.1234e11
 B = 1.2345e2
-A + B = 1.2357e2
+A + B = 2.8765e11
 Writing exact answer to C.txt
 
-A = 1.2345e-1
+A = -7.1234e11
 B = 1.2345e2
-A - B = -1.2333e2
+A - B = -7.1234e11
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = 1.2345e2
+A * B = -8.7943e13
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
-B = 1.234e3
-A + B = 1.2341e3
+A = -7.1234e11
+B = 1.234e-6
+A + B = -7.1234e11
 Writing exact answer to C.txt
 
-A = 1.2345e-1
-B = 1.234e3
-A - B = -1.2338e3
+A = -7.1234e11
+B = 1.234e-6
+A - B = -7.1234e11
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = 1.234e-6
+A * B = -8.7903e5
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
-B = -2.5e-1
-A + B = -1.2654e-1
+A = -7.1234e11
+B = -4.0002e2
+A + B = -7.1234e11
 Writing exact answer to C.txt
 
-A = 1.2345e-1
-B = -2.5e-1
-A - B = 3.7345e-1
+A = -7.1234e11
+B = -4.0002e2
+A - B = 2.8765e11
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -4.0002e2
+A * B = 2.8495e14
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test3.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
+A = -7.1234e11
 B = 6.3477e7
-A + B = 6.3477e7
+A + B = 2.8771e11
 Writing exact answer to C.txt
 
-A = 1.2345e-1
+A = -7.1234e11
 B = 6.3477e7
-A - B = -6.3477e7
+A - B = -7.1240e11
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = 6.3477e7
+A * B = -4.5217e19
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
+A = -7.1234e11
 B = -8.1234e11
-A + B = -8.1234e11
+A + B = -1.5246e12
 Writing exact answer to C.txt
 
-A = 1.2345e-1
+A = -7.1234e11
 B = -8.1234e11
-A - B = 8.1234e11
+A - B = 1.0000e11
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -8.1234e11
+A * B = 5.7867e23
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
-B = 1.2345e-1
-A + B = 2.4691e-1
+A = -7.1234e11
+B = -7.1234e11
+A + B = -1.4246e12
 Writing exact answer to C.txt
 
-A = 1.2345e-1
-B = 1.2345e-1
+A = -7.1234e11
+B = -7.1234e11
 A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -7.1234e11
+A * B = 5.0743e23
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test6.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
+A = -7.1234e11
 B = -1.4351e34
 A + B = -1.4351e34
 Writing exact answer to C.txt
 
-A = 1.2345e-1
+A = -7.1234e11
 B = -1.4351e34
 A - B = 1.4351e34
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -1.4351e34
+A * B = 1.0223e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
-B = 9.9999e37
-A + B = 9.9999e37
+A = -7.1234e11
+B = -9.4351e34
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = 1.2345e-1
-B = 9.9999e37
-A - B = -9.9999e37
+A = -7.1234e11
+B = -9.4351e34
+A - B = 9.4351e34
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -9.4351e34
+A * B = 6.7210e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test8.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
+A = -7.1234e11
 B = 2.1039e194
 A + B = 2.1039e194
 Writing exact answer to C.txt
 
-A = 1.2345e-1
+A = -7.1234e11
 B = 2.1039e194
 A - B = -2.1039e194
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = 2.1039e194
+A * B = -1.4987e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test5.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
-A = 1.2345e-1
-B = 2.1039e194
-A + B = 2.1039e194
+A = -7.1234e11
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 1.2345e-1
-B = 2.1039e194
-A - B = -2.1039e194
+A = -7.1234e11
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = -7.1234e11
+B = -9.9939e194
+A * B = 7.1191e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -790,30 +1090,45 @@ B = 1.2345e2
 A - B = -1.4351e34
 Writing exact answer to C.txt
 
+A = -1.4351e34
+B = 1.2345e2
+A * B = -1.7717e36
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
 A = -1.4351e34
-B = 1.234e3
-A + B = -1.4351e34
+B = 1.234e-6
+A + B = 8.5648e34
 Writing exact answer to C.txt
 
 A = -1.4351e34
-B = 1.234e3
+B = 1.234e-6
 A - B = -1.4351e34
+Writing exact answer to C.txt
+
+A = -1.4351e34
+B = 1.234e-6
+A * B = -1.7709e28
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
 A = -1.4351e34
-B = -2.5e-1
+B = -4.0002e2
 A + B = -1.4351e34
 Writing exact answer to C.txt
 
 A = -1.4351e34
-B = -2.5e-1
-A - B = -1.4351e34
+B = -4.0002e2
+A - B = 8.5648e34
+Writing exact answer to C.txt
+
+A = -1.4351e34
+B = -4.0002e2
+A * B = 5.7410e36
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -829,6 +1144,11 @@ B = 6.3477e7
 A - B = -1.4351e34
 Writing exact answer to C.txt
 
+A = -1.4351e34
+B = 6.3477e7
+A * B = -9.1100e41
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
@@ -842,17 +1162,27 @@ B = -8.1234e11
 A - B = 8.5648e34
 Writing exact answer to C.txt
 
+A = -1.4351e34
+B = -8.1234e11
+A * B = 1.1658e46
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
 A = -1.4351e34
-B = 1.2345e-1
-A + B = 8.5648e34
+B = -7.1234e11
+A + B = -1.4351e34
 Writing exact answer to C.txt
 
 A = -1.4351e34
-B = 1.2345e-1
-A - B = -1.4351e34
+B = -7.1234e11
+A - B = 8.5648e34
+Writing exact answer to C.txt
+
+A = -1.4351e34
+B = -7.1234e11
+A * B = 1.0223e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -868,17 +1198,27 @@ B = -1.4351e34
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = -1.4351e34
+B = -1.4351e34
+A * B = 2.0596e68
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
 A = -1.4351e34
-B = 9.9999e37
-A + B = 9.9985e37
+B = -9.4351e34
+A + B = -1.0870e35
 Writing exact answer to C.txt
 
 A = -1.4351e34
-B = 9.9999e37
-A - B = -1.0001e38
+B = -9.4351e34
+A - B = 7.9999e34
+Writing exact answer to C.txt
+
+A = -1.4351e34
+B = -9.4351e34
+A * B = 1.3540e69
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -894,147 +1234,207 @@ B = 2.1039e194
 A - B = -2.1039e194
 Writing exact answer to C.txt
 
+A = -1.4351e34
+B = 2.1039e194
+A * B = -3.0195e228
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test6.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
 A = -1.4351e34
-B = 2.1039e194
-A + B = 2.1039e194
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
 A = -1.4351e34
-B = 2.1039e194
-A - B = -2.1039e194
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = -1.4351e34
+B = -9.9939e194
+A * B = 1.4342e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test0.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
+A = -9.4351e34
 B = 1.2345e2
-A + B = 9.9999e37
+A + B = 5.6483e33
 Writing exact answer to C.txt
 
-A = 9.9999e37
+A = -9.4351e34
 B = 1.2345e2
-A - B = 9.9999e37
+A - B = -9.4351e34
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = 1.2345e2
+A * B = -1.1648e37
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
-B = 1.234e3
-A + B = 9.9999e37
+A = -9.4351e34
+B = 1.234e-6
+A + B = 5.6483e33
 Writing exact answer to C.txt
 
-A = 9.9999e37
-B = 1.234e3
-A - B = -7.6540e28
+A = -9.4351e34
+B = 1.234e-6
+A - B = -9.4351e34
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = 1.234e-6
+A * B = -1.1642e29
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
-B = -2.5e-1
-A + B = 9.9999e37
+A = -9.4351e34
+B = -4.0002e2
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = 9.9999e37
-B = -2.5e-1
-A - B = 9.9999e37
+A = -9.4351e34
+B = -4.0002e2
+A - B = 5.6483e33
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -4.0002e2
+A * B = 3.7743e37
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test3.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
+A = -9.4351e34
 B = 6.3477e7
-A + B = 9.9999e37
+A + B = 5.6483e33
 Writing exact answer to C.txt
 
-A = 9.9999e37
+A = -9.4351e34
 B = 6.3477e7
-A - B = -7.6540e28
+A - B = -9.4351e34
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = 6.3477e7
+A * B = -5.9892e42
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
+A = -9.4351e34
 B = -8.1234e11
-A + B = -7.6540e28
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = 9.9999e37
+A = -9.4351e34
 B = -8.1234e11
-A - B = 9.9999e37
+A - B = 5.6483e33
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -8.1234e11
+A * B = 7.6646e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
-B = 1.2345e-1
-A + B = 9.9999e37
+A = -9.4351e34
+B = -7.1234e11
+A + B = -9.4351e34
 Writing exact answer to C.txt
 
-A = 9.9999e37
-B = 1.2345e-1
-A - B = 9.9999e37
+A = -9.4351e34
+B = -7.1234e11
+A - B = 5.6483e33
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -7.1234e11
+A * B = 6.7210e46
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test6.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
+A = -9.4351e34
 B = -1.4351e34
-A + B = -1.4351e34
+A + B = -1.0870e35
 Writing exact answer to C.txt
 
-A = 9.9999e37
+A = -9.4351e34
 B = -1.4351e34
-A - B = 1.0001e38
+A - B = 2.0000e34
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -1.4351e34
+A * B = 1.3540e69
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
-B = 9.9999e37
-A + B = 1.9999e38
+A = -9.4351e34
+B = -9.4351e34
+A + B = -1.8870e35
 Writing exact answer to C.txt
 
-A = 9.9999e37
-B = 9.9999e37
+A = -9.4351e34
+B = -9.4351e34
 A - B = 0.0e0
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -9.4351e34
+A * B = 8.9022e69
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test8.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
+A = -9.4351e34
 B = 2.1039e194
 A + B = 2.1039e194
 Writing exact answer to C.txt
 
-A = 9.9999e37
+A = -9.4351e34
 B = 2.1039e194
 A - B = -2.1039e194
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = 2.1039e194
+A * B = -1.9851e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test7.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
-A = 9.9999e37
-B = 2.1039e194
-A + B = 2.1039e194
+A = -9.4351e34
+B = -9.9939e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 9.9999e37
-B = 2.1039e194
-A - B = -2.1039e194
+A = -9.4351e34
+B = -9.9939e194
+A - B = 9.9939e194
+Writing exact answer to C.txt
+
+A = -9.4351e34
+B = -9.9939e194
+A * B = 9.4294e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1050,30 +1450,45 @@ B = 1.2345e2
 A - B = -7.8960e194
 Writing exact answer to C.txt
 
+A = 2.1039e194
+B = 1.2345e2
+A * B = 2.5974e196
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
 A = 2.1039e194
-B = 1.234e3
+B = 1.234e-6
 A + B = 2.1039e194
 Writing exact answer to C.txt
 
 A = 2.1039e194
-B = 1.234e3
-A - B = 2.1039e194
+B = 1.234e-6
+A - B = -7.8960e194
+Writing exact answer to C.txt
+
+A = 2.1039e194
+B = 1.234e-6
+A * B = 2.5962e188
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
 A = 2.1039e194
-B = -2.5e-1
+B = -4.0002e2
 A + B = -7.8960e194
 Writing exact answer to C.txt
 
 A = 2.1039e194
-B = -2.5e-1
+B = -4.0002e2
 A - B = 2.1039e194
+Writing exact answer to C.txt
+
+A = 2.1039e194
+B = -4.0002e2
+A * B = -8.4163e196
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1089,6 +1504,11 @@ B = 6.3477e7
 A - B = -7.8960e194
 Writing exact answer to C.txt
 
+A = 2.1039e194
+B = 6.3477e7
+A * B = 1.3355e202
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
@@ -1102,17 +1522,27 @@ B = -8.1234e11
 A - B = 2.1039e194
 Writing exact answer to C.txt
 
+A = 2.1039e194
+B = -8.1234e11
+A * B = -1.7091e206
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
 A = 2.1039e194
-B = 1.2345e-1
-A + B = 2.1039e194
+B = -7.1234e11
+A + B = -7.8960e194
 Writing exact answer to C.txt
 
 A = 2.1039e194
-B = 1.2345e-1
-A - B = -7.8960e194
+B = -7.1234e11
+A - B = 2.1039e194
+Writing exact answer to C.txt
+
+A = 2.1039e194
+B = -7.1234e11
+A * B = -1.4987e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1128,17 +1558,27 @@ B = -1.4351e34
 A - B = 2.1039e194
 Writing exact answer to C.txt
 
+A = 2.1039e194
+B = -1.4351e34
+A * B = -3.0195e228
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
 A = 2.1039e194
-B = 9.9999e37
-A + B = 2.1039e194
+B = -9.4351e34
+A + B = -7.8960e194
 Writing exact answer to C.txt
 
 A = 2.1039e194
-B = 9.9999e37
-A - B = -7.8960e194
+B = -9.4351e34
+A - B = 2.1039e194
+Writing exact answer to C.txt
+
+A = 2.1039e194
+B = -9.4351e34
+A * B = -1.9851e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1154,147 +1594,307 @@ B = 2.1039e194
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = 2.1039e194
+B = 2.1039e194
+A * B = 4.4265e388
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test8.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
 A = 2.1039e194
-B = 2.1039e194
-A + B = 4.2078e194
+B = -9.9939e194
+A + B = -7.8900e194
 Writing exact answer to C.txt
 
 A = 2.1039e194
-B = 2.1039e194
-A - B = -2.1039e-102
+B = -9.9939e194
+A - B = 1.2097e195
+Writing exact answer to C.txt
+
+A = 2.1039e194
+B = -9.9939e194
+A * B = -2.1026e389
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test0.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
+A = -9.9939e194
 B = 1.2345e2
-A + B = 2.1039e194
+A + B = 6.0542e191
 Writing exact answer to C.txt
 
-A = 2.1039e194
+A = -9.9939e194
 B = 1.2345e2
-A - B = -7.8960e194
+A - B = -9.9939e194
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = 1.2345e2
+A * B = -1.2338e197
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test1.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
-B = 1.234e3
-A + B = 2.1039e194
+A = -9.9939e194
+B = 1.234e-6
+A + B = 6.0542e191
 Writing exact answer to C.txt
 
-A = 2.1039e194
-B = 1.234e3
-A - B = 2.1039e194
+A = -9.9939e194
+B = 1.234e-6
+A - B = -9.9939e194
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = 1.234e-6
+A * B = -1.2332e189
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test2.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
-B = -2.5e-1
-A + B = -7.8960e194
+A = -9.9939e194
+B = -4.0002e2
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
-B = -2.5e-1
-A - B = 2.1039e194
+A = -9.9939e194
+B = -4.0002e2
+A - B = 6.0542e191
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = -4.0002e2
+A * B = 3.9978e197
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test3.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
+A = -9.9939e194
 B = 6.3477e7
-A + B = 2.1039e194
+A + B = 6.0542e191
 Writing exact answer to C.txt
 
-A = 2.1039e194
+A = -9.9939e194
 B = 6.3477e7
-A - B = -7.8960e194
+A - B = -9.9939e194
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = 6.3477e7
+A * B = -6.3439e202
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test4.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
+A = -9.9939e194
 B = -8.1234e11
-A + B = -7.8960e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
+A = -9.9939e194
 B = -8.1234e11
-A - B = 2.1039e194
+A - B = 6.0542e191
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = -8.1234e11
+A * B = 8.1185e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test5.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
-B = 1.2345e-1
-A + B = 2.1039e194
+A = -9.9939e194
+B = -7.1234e11
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
-B = 1.2345e-1
-A - B = -7.8960e194
+A = -9.9939e194
+B = -7.1234e11
+A - B = 6.0542e191
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = -7.1234e11
+A * B = 7.1191e206
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test6.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
+A = -9.9939e194
 B = -1.4351e34
-A + B = -7.8960e194
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
+A = -9.9939e194
 B = -1.4351e34
-A - B = 2.1039e194
+A - B = 6.0542e191
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = -1.4351e34
+A * B = 1.4342e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test7.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
-B = 9.9999e37
-A + B = 2.1039e194
+A = -9.9939e194
+B = -9.4351e34
+A + B = -9.9939e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
-B = 9.9999e37
-A - B = -7.8960e194
+A = -9.9939e194
+B = -9.4351e34
+A - B = 6.0542e191
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = -9.4351e34
+A * B = 9.4294e229
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test8.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
+A = -9.9939e194
 B = 2.1039e194
-A + B = 4.2078e194
+A + B = -7.8900e194
 Writing exact answer to C.txt
 
-A = 2.1039e194
+A = -9.9939e194
 B = 2.1039e194
-A - B = 2.1039e-102
+A - B = -1.2097e195
+Writing exact answer to C.txt
+
+A = -9.9939e194
+B = 2.1039e194
+A * B = -2.1026e389
 Writing exact answer to C.txt
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@ A = test9.txt @@@@@@@@@ B = test9.txt @@@@@@
 Performing +, -, and * on A and B
-A = 2.1039e194
-B = 2.1039e194
-A + B = 4.2078e194
+A = -9.9939e194
+B = -9.9939e194
+A + B = -1.9987e195
 Writing exact answer to C.txt
 
-A = 2.1039e194
-B = 2.1039e194
+A = -9.9939e194
+B = -9.9939e194
 A - B = 0.0e0
 Writing exact answer to C.txt
 
+A = -9.9939e194
+B = -9.9939e194
+A * B = 9.9878e389
+Writing exact answer to C.txt
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B
+Performing +, -, and * on A and B

@@ -12,8 +12,8 @@ public:
 	// ~Bignum();
 
 	//Getters
-	string getnum() const;
-	string getexpnum() const;
+	string getnum();
+	string getexpnum();
 
 	//operator overloads
 	Bignum operator+(Bignum&); 
@@ -27,6 +27,9 @@ private:
 
 	static const int DIGITS_PER_LL;
 	static const int SIG_FIGS;
+	static const int MULTIPLICATION_DIGITS;
+
+    Bignum(int, int);
 
 	void add_zeros_left(int);
 	void add_zeros_right(int);

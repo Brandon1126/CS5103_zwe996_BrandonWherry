@@ -42,9 +42,9 @@ Bignum bignum_ALU(Bignum& A, Bignum& B, string& operation) {
 	if (operation == "sub") {
 		return A - B;
 	}
-//    if (operation == "mul") {
-//        return A * B;
-//    }
+    if (operation == "mul") {
+        return A * B;
+    }
 	return A + B;
 }
 
@@ -59,7 +59,7 @@ string operation_selector(string& operation) {
         return "*";
     }
 
-	return " (Error: unknown operation, default is addition, please state: add sub or mul) ";
+	return " (Error: unknown operation, default is addition, please state: 'add', 'sub', or 'mul') ";
 }
 
 void driver(int argc, char const *argv[]) {

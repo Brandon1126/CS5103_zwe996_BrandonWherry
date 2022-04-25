@@ -35,7 +35,7 @@ For example: (in A.txt or B.txt)
 
 This would result in the number 310000001212345.6778911234673
 
-Whitespace at the beginning of line has undefined behavior. (this may be adjusted in the future)
+Whitespace at the beginning of line produces undefined behavior. (this may be adjusted in the future)
 
 For testing purposes, you can start with smaller numbers.
 

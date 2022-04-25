@@ -28,7 +28,7 @@ The following global constant must be determined to figure out how many
 digits should be included in each long long int.
 */
 const int Bignum::DIGITS_PER_LL = (int)to_string(LLONG_MAX).size() - 2;
-
+const int Bignum::MULTIPLICATION_DIGITS = (int)to_string(LLONG_MAX).size() / 2 - 1;
 
 // How many sig figs to print out in scientific notation
 const int Bignum::SIG_FIGS = 4;
@@ -57,8 +57,19 @@ Bignum::Bignum(string& file_string) {
 }
 
 
+// Private constructor for internal use only
+// This constructor creates a Bignum of zeros
+Bignum::Bignum(int zero_count, int decimal_place) {
+    string s(zero_count, '0');
+    number = s;
+    this->decimal_place = decimal_place;
+}
+
+
+
 // Returns the Bignum as a string
-string Bignum::getnum() const {
+string Bignum::getnum() {
+    this->compress();
 	string return_string;
 	if (isNegative) return_string.append(1, '-');
 	if (decimal_place == number.size()) {
@@ -71,7 +82,8 @@ string Bignum::getnum() const {
 
 
 // Returns the Bignum as a string
-string Bignum::getexpnum() const {
+string Bignum::getexpnum() {
+    this->compress();
     if (this->getnum().compare("0.0") == 0) return "0.0e0";
     if (this->getnum().compare("-0.0") == 0) return "0.0e0";
 	string return_string;
@@ -84,7 +96,6 @@ string Bignum::getexpnum() const {
 	}
 	return_string.append(1, number[first_nonzero_digit_location]);
 	return_string.append(1, '.');
-	
 	int digits_left = number.substr(first_nonzero_digit_location).size();
 	if (digits_left >= 2) {
 		return_string.append(number.substr(first_nonzero_digit_location + 1, SIG_FIGS));
@@ -128,7 +139,6 @@ B = 003.4567
 void Bignum::decimal_align(Bignum& other) {
 	bool already_aligned = decimal_place == other.decimal_place and number.size() == other.number.size();
 	if (already_aligned) return;
-
 	int decimal_place_diff;
 	if (decimal_place > other.decimal_place) {
 		decimal_place_diff = decimal_place - other.decimal_place;
@@ -219,7 +229,6 @@ Bignum Bignum::operator+(Bignum& other) {
 	Bignum C(result);
 	C.decimal_place = decimal_pos;
 	C.isNegative = isNegative;
-	C.compress();
 	return C;
 }
 
@@ -297,8 +306,64 @@ Bignum Bignum::operator-(Bignum& other) {
 	Bignum C(result);
 	C.decimal_place = decimal_pos;
 	C.isNegative = A.isNegative;
-	C.compress();
 	return C;
+}
+
+
+
+/**
+ * Multiplies two Bignums.
+ *
+ * Description:
+ * The basic idea is that a resulting Bignum is created to store all
+ * Additions generated from a double for loop. This double for loop cross multiplies
+ * all pieces of the two Bignums
+ *
+ *
+ *
+ * @param Bignum to be added
+ * @return a Bignum result
+ *
+ */
+Bignum Bignum::operator*(Bignum& other) {
+    int size_A = (int)number.size();
+    int size_B = (int)other.number.size();
+    int result_size = size_A + size_B;
+    int decimal_place_A = decimal_place;
+    int decimal_place_B = other.decimal_place;
+    int result_decimal_place = decimal_place_A + decimal_place_B;
+    Bignum result_Bignum(result_size, result_decimal_place);
+    Bignum temp_Bignum(result_size, result_decimal_place);
+    string str_A, str_B;
+    int x, y;
+    long long int num_A, num_B;
+    for (int i = (int)number.size(); i > 0; i -= MULTIPLICATION_DIGITS) {
+        for (int j = (int)other.number.size(); j > 0; j -= MULTIPLICATION_DIGITS) {
+            x = i - MULTIPLICATION_DIGITS >= 0 ? i - MULTIPLICATION_DIGITS : 0;
+            y = j - MULTIPLICATION_DIGITS >= 0 ? j - MULTIPLICATION_DIGITS : 0;
+            str_A = i - MULTIPLICATION_DIGITS >= 0 ?
+                number.substr(x, MULTIPLICATION_DIGITS) :
+                number.substr(x, i);
+            str_B = j - MULTIPLICATION_DIGITS >= 0 ?
+                other.number.substr(y, MULTIPLICATION_DIGITS) :
+                other.number.substr(y, j);
+            size_A = (int)str_A.size();
+            size_B = (int)str_B.size();
+            result_size = size_A + size_B;
+            num_A = stoll(str_A);
+            num_B = stoll(str_B);
+            num_A *= num_B;
+            str_A = to_string(num_A);
+            if (result_size > (int)str_A.size()) {
+                str_A.insert(0, result_size - (int)str_A.size(), '0');
+            }
+            temp_Bignum.number.replace(x + y, str_A.size(), str_A);
+            result_Bignum = result_Bignum + temp_Bignum;
+            temp_Bignum.number.replace(x + y, str_A.size(), str_A.size(), '0');
+        }
+    }
+    result_Bignum.isNegative = isNegative ^ other.isNegative;
+    return result_Bignum;
 }
 
 
@@ -306,7 +371,7 @@ Bignum Bignum::operator-(Bignum& other) {
  * 
  * Comparison operators go from MSB -> LSB, and compare each value one by one.
  * 
- * @param other Bignum that is comapred against *This Bignum
+ * @param other Bignum that is compared against *This Bignum
  * @return true or false
  * 
  */
@@ -343,17 +408,18 @@ void Bignum::compress() {
 	int pos = 0;
 	while(true) {
 		if (number[pos] == '0') {
+		    if (decimal_place == 0) break;
 			number.erase(pos, 1);
 			decimal_place -= 1;
-			if (decimal_place == 0) break;
 		}
 		else {break;}
 	}
 	pos = number.size() - 1;
 	while(true) {
 		if (number[pos] == '0') {
+		    if (decimal_place == pos + 1) break;
 			number.erase(pos, 1);
-			pos--;
+			pos -= 1;
 		}
 		else {break;}
 	}
