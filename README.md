@@ -48,7 +48,6 @@ or
 g++ src/*.cpp -o BigNumberMath 
 
 
-
 # To add:
 
 ./BigNumberMath add A.txt B.txt
@@ -74,7 +73,24 @@ or
 
 bash sub.sh
 
-The latter assumes that A.txt and B.txt will be used
+
+
+# To Multiply:
+
+./BigNumberMath mul A.txt B.txt
+
+or
+
+./sub.sh
+
+or
+
+bash sub.sh
+
+
+# Execution by scripts
+
+If add.sh, sub.sh, or mul.sh are used, then the inputs are automatically loaded from A.txt and B.txt
 
 # Format of the answer
 Both A and B will be printed back in scientific notation with 5 sig figs.
