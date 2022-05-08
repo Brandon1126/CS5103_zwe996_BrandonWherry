@@ -331,7 +331,7 @@ Bignum Bignum::operator-(Bignum& other) {
  * The number of digits that are handled each time is depended on the machine/compiler being used.
  * But for most systems, it's likely to be 8 digit segments. This is because 8 digits times 8 digits
  * cannot be more than 16 digits, which can be stored in an long long int. I've opted to not comment this code,
- * as it's likely going to add to the confusing, and the number of lines needed for the method. But here is an illustration
+ * as it's likely going to add to confusion, and the number of lines needed for the method. But here is an illustration
  * of what's going on.
 
  Suppose we want to multiply 123456789123456789 times 123456789, and
